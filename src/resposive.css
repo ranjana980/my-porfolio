@@ -96,6 +96,7 @@
 }
 .About{
   height: 85rem;
+  flex-wrap: wrap;
 }
   
   }
