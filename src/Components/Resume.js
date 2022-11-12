@@ -79,7 +79,7 @@ export default function MyPortFolio() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-5 col-sm-12 ml-sm-5' style={{ marginTop: '76px' }}>
+                    <div className='col-md-5 col-sm-12 ml-5' style={{ marginTop: '76px' }}>
                         <h5 className='Year1'>2021 - 2022</h5>
                         <div className='d-flex'>
                             <div>
@@ -109,27 +109,27 @@ export default function MyPortFolio() {
                         </div>
                     </div>
                 </div>
-                <div className='pre-div ml-sm-5 ml-md-5'>
+                <div className='pre-div ml-sm-5 ml-5'>
                     <div className='row'>
-                        <div className='col-md-4  col-sm-5 '>
+                        <div className='col-md-4  col-sm-5 col-sx-10 '>
                             <div className='d-flex' style={{ justifyContent: 'space-between', color: 'white' }}><h6>Python</h6><h6>70%</h6></div>
                             <LinearProgress variant="determinate" color="secondary" value={70} />
                         </div>
-                        <div className='col-md-4  col-sm-5'>
+                        <div className='col-md-4  col-sm-5 col-xs-10'>
                             <div className='d-flex' style={{ justifyContent: 'space-between', color: 'white' }}><h6>JavaScript</h6><h6>70%</h6></div>
                             <LinearProgress variant="determinate" color="secondary" value={70} />
-                        </div>
-                        <div className='col-md-4  col-sm-5' >
+                        </div> 
+                        <div className='col-md-4  col-sm-5 col-xs-10' >
                             <div className='d-flex' style={{ justifyContent: 'space-between', color: 'white' }}><h6>Html && Css</h6><h6>70%</h6></div>
                             <LinearProgress variant="determinate" color="secondary" value={70} />
                         </div>
                     </div>
                     <div className='row '>
-                        <div className='col-md-4  col-sm-5'>
+                        <div className='col-md-4  col-sm-5 col-xs-10'>
                             <div className='d-flex' style={{ justifyContent: 'space-between', color: 'white' }}><h6>Material Ui</h6><h6>70%</h6></div>
                             <LinearProgress variant="determinate" color="secondary" value={70} />
                         </div>
-                        <div className='col-md-4  col-sm-5'>
+                        <div className='col-md-4  col-sm-5 col-xs-10'>
                             <div className='d-flex' style={{ justifyContent: 'space-between', color: 'white' }}><h6>Bootstrap</h6><h6>70%</h6></div>
                             <LinearProgress variant="determinate" color="secondary" value={70} />
                         </div>
@@ -139,43 +139,43 @@ export default function MyPortFolio() {
                         </div>
                     </div>
                     <div className='row '>
-                        <div className='col-md-4  col-sm-5'>
+                        <div className='col-md-4  col-sm-5 col-xs-10'>
                             <div className='d-flex' style={{ justifyContent: 'space-between', color: 'white' }}><h6>Redux</h6><h6>60%</h6></div>
                             <LinearProgress variant="determinate" color="secondary" value={70} />
                         </div>
-                        <div className='col-md-4  col-sm-5'>
+                        <div className='col-md-4  col-sm-5 col-xs-10'>
                             <div className='d-flex' style={{ justifyContent: 'space-between', color: 'white' }}><h6>Next Js</h6><h6>80%</h6></div>
                             <LinearProgress variant="determinate" color="secondary" value={70} />
                         </div>
-                        <div className='col-md-4  col-sm-5' >
+                        <div className='col-md-4  col-sm-5 col-xs-10' >
                             <div className='d-flex' style={{ justifyContent: 'space-between', color: 'white' }}><h6>Agora Web Rtc</h6><h6>70%</h6></div>
                             <LinearProgress variant="determinate" color="secondary" value={70} />
                         </div>
                     </div>
                     <div className='row'>
-                        <div className='col-md-4  col-sm-5'>
+                        <div className='col-md-4  col-sm-5 col-xs-10'>
                             <div className='d-flex' style={{ justifyContent: 'space-between', color: 'white' }}><h6>Express js</h6><h6>40%</h6></div>
                             <LinearProgress variant="determinate" color="secondary" value={70} />
                         </div>
-                        <div className='col-md-4  col-sm-5'>
+                        <div className='col-md-4  col-sm-5 col-sx-10'>
                             <div className='d-flex' style={{ justifyContent: 'space-between', color: 'white' }}><h6>Mongodb Database</h6><h6>50%</h6></div>
                             <LinearProgress variant="determinate" color="secondary" value={70} />
                         </div>
-                        <div className='col-md-4  col-sm-5' >
+                        <div className='col-md-4  col-sm-5 col-xs-10' >
                             <div className='d-flex' style={{ justifyContent: 'space-between', color: 'white' }}><h6>Node js</h6><h6>50%</h6></div>
                             <LinearProgress variant="determinate" color="secondary" value={70} />
                         </div>
                     </div>
                     <div className='row '>
-                        <div className='col-md-4  col-sm-5'>
+                        <div className='col-md-4  col-sm-5 col-xs-10'>
                             <div className='d-flex' style={{ justifyContent: 'space-between', color: 'white' }} ><h6>socket.io</h6><h6>50%</h6></div>
                             <LinearProgress variant="determinate" color="secondary" value={70} />
                         </div>
-                        <div className='col-md-4  col-sm-5'>
+                        <div className='col-md-4  col-sm-5 col-xs-10'>
                             <div className='d-flex' style={{ justifyContent: 'space-between', color: 'white' }}><h6>Firebase</h6><h6>60%</h6></div>
                             <LinearProgress variant="determinate" color="secondary" value={70} />
                         </div>
-                        <div className='col-md-4  col-sm-5' >
+                        <div className='col-md-4  col-sm-5 col-xs-10' >
                             <div className='d-flex' style={{ justifyContent: 'space-between', color: 'white' }} ><h6>Github</h6><h6>70%</h6></div>
                             <LinearProgress variant="determinate" color="secondary" value={70} />
                         </div>
@@ -184,7 +184,7 @@ export default function MyPortFolio() {
                 <div>
                     <h1 className='mt-3 ' style={{ color: 'rgb(0, 123, 255)', textShadow: '2px 2px 4px  #000000', }}>Projects</h1>
                     <div className='row mt-4 ml-sm-1 '>
-                        <div className='col-md-3 col-sm-10  br bg-white ml-5 mr-sm5 p-2 '>
+                        <div className='col-md-3 col-sm-10  br bg-white ml-5 mr-sm-5 p-2 col-xs-10'>
                             <div className='hover-div'>
                                 <img className='br  live-preview' src={emmoji}  />
                                 <div class="overlay">
@@ -193,7 +193,7 @@ export default function MyPortFolio() {
                             </div>
                             <h5 style={{ color: 'black', textShadow: '1px 1px 1px' }}>Emoji Search</h5>
                         </div>
-                        <div className='col-md-3 col-sm-10 mt-sm-3 bg-white br ml-5 mr-sm-5 p-2'>
+                        <div className='col-md-3 col-sm-10 mt-sm-3 bg-white br ml-5 mr-sm-5 p-2 col-xs-10'>
                             <div className='hover-div'>
                                 <img className='br live-preview' src={recipe} />
                                 <div class="overlay">
@@ -202,7 +202,7 @@ export default function MyPortFolio() {
                             </div>
                             <h5 style={{ color: 'black', textShadow: '1px 1px 1px' }}>Food Recipe Finder</h5>
                         </div>
-                        <div className='col-md-3 col-sm-10 mt-sm-3 br bg-white ml-5  mr-sm-5 p-2'>
+                        <div className='col-md-3 col-sm-10 mt-sm-3 br bg-white ml-5  mr-sm-5 p-2 col-xs-10'>
                             <div className='hover-div'>
                                 <img className='br live-preview' src={doctor}  />
                                 <div class="overlay">
