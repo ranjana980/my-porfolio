@@ -14,8 +14,6 @@ export default function About() {
     };
     return (
         <div className="About">
-
-
             <div className="right-div">
                 <div >
                     <div>
