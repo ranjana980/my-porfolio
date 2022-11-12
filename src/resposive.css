@@ -1,0 +1,98 @@
+@media only screen and (max-width: 767px) {
+    .right-div img {
+      margin-top: 145px;
+      margin-top: 145px;
+      height: 277px;
+      width: 650px;
+      border-radius: 10px;
+      position: relative;
+      filter: drop-shadow(2px 2px 2px);
+      bottom: 65px;
+      right: 131px;
+    }
+    .live-preview{
+      height: 310px;
+      width: 600px;
+    }
+    .input1 {
+      height: 78px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-radius: none;
+      width: 100% !important;
+      background-color: #c5e0d3;
+  }
+  .Contact {
+    height: 59rem;
+    background-color: #31639b;
+}
+
+.Resume {
+  background-color: black;
+  filter: drop-shadow(4px 4px 4px);
+  height: 50px;
+  border-radius: 10px;
+  width: 47%;
+  margin-top: 22px;
+  margin-left: -2px;
+}
+  .input2 {
+    /* height: 78px; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: none;
+    width: 100% !important;
+    /* background-color: #c5e0d3; */
+}
+    .Portfolio {
+      height: 166rem;
+      background-color: #44589e;
+  }
+    .container {
+      position: relative;
+      width: 100%;
+  }
+    .right-div{
+      right: 0px;
+      top:72px;
+    }
+    .Home{
+      height: 64rem;
+      right: 126px;
+    }
+  
+    .icon-div {
+      position: relative;
+      left: 42px;
+      top: -49px;
+      width: 282px;
+      justify-content: space-between;
+  }
+  .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+  }
+  .Project {
+    margin-left: 6px;
+    width: 292px;
+    justify-content: space-between;
+    position: relative;
+    top: 65px;
+  }
+  .Resume1 {
+    background-color: black;
+    filter: drop-shadow(4px 4px 4px);
+    height: 50px;
+    border-radius: 10px;
+    width: 25%;
+    margin-top: 49px;
+    margin-left: 66px;
+}
+  
+  }

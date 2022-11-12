@@ -1,0 +1,516 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.column {
+  margin-top: 10px;
+}
+
+.Home {
+  height: 45rem;
+  background-color: #cabfbf;
+}
+
+.pre-div {
+  width: 85%;
+  margin-left: 100px;
+  margin-top: 29px;
+}
+
+.Home img {
+  width: 994px;
+  height: 400px;
+  position: relative;
+  opacity: .8;
+  border-radius: 10px;
+  /* right: 16px; */
+}
+
+.sm-div {
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  width: 280px;
+  height: 411px;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 20px;
+  top: 152px;
+}
+
+.Small-div {
+  border: 2px solid #007bff;
+  margin-left: 15px;
+  border-radius: 10px;
+  height: 41rem;
+  width: 1443px;
+}
+
+.Project {
+  width: 384px;
+  justify-content: space-between;
+  position: relative;
+  
+  color: white;
+}
+
+
+.Sociel-icon1 {
+  font-size: 35px !important;
+  color: #0a66c2;
+  filter: drop-shadow(1px 1px 1px);
+}
+
+.Sociel-icon2 {
+  font-size: 35px !important;
+  color: #000000;
+  filter: drop-shadow(1px 1px 1px);
+}
+
+
+.icon-div {
+  position: relative;
+  left: 462px;
+  /* top: 30px; */
+  padding: 10px;
+
+  border-radius: 10px;
+  background: white;
+  width: 109px;
+  justify-content: space-between;
+}
+
+.Sociel-icon3 {
+  font-size: 35px !important;
+  color: #007bff;
+  filter: drop-shadow(1px 1px 1px);
+}
+
+.Sociel-icon4 {
+  font-size: 35px !important;
+  color: #992c6a;
+  filter: drop-shadow(1px 1px 1px);
+}
+
+.Sociel-icon5 {
+  font-size: 35px !important;
+  color: #3b5998;
+  filter: drop-shadow(1px 1px 1px);
+}
+
+.Year {
+  margin-bottom: 0px;
+  color: rgb(0, 123, 255);
+}
+
+.line {
+  height: 65px;
+  width: 3px;
+  position: relative;
+  background-color: #007bff;
+  border-radius: 6px;
+  top: 24px;
+  left: 10px;
+}
+
+.Year1 {
+  text-align: start;
+  margin-left: 44px;
+  color: black;
+  position: relative;
+  text-shadow: rgb(0 0 0) 1px 1px 3px;
+  top: 9px;
+}
+
+.exp {
+  position: relative;
+  left: 10px;
+  color: rgb(0, 123, 255);
+}
+
+.icon {
+  color: white;
+  position: relative;
+  font-size: 35px !important;
+  top: 8px;
+  left: 7px;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h5 {
+  font-size: 21px;
+  color: white;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-shadow: rgb(0 0 0) 6px 5px 10px;
+}
+
+.title {
+  position: relative;
+  right: 205px;
+}
+
+.Resume {
+  background-color: black;
+  filter: drop-shadow(4px 4px 4px);
+  height: 57px;
+  border-radius: 10px;
+  width: 185px;
+  margin-top: 70px;
+  margin-left: 68px;
+}
+.Resume1 {
+  background-color: black;
+  filter: drop-shadow(4px 4px 4px);
+  height: 57px;
+  border-radius: 10px;
+  width: 185px;
+  margin-top: 70px;
+  margin-left: 68px;
+}
+
+.Skills {
+  background-color: white;
+  height: 155px;
+  border-radius: 10px;
+  width: 242px;
+  margin-top: 25px;
+  margin-left: 10px;
+  color: white;
+  border: 2px solid #007bff;
+
+}
+
+.Eductaion {
+  color: white;
+  background-color: white;
+  height: 311px;
+  font-size: 12px;
+  border-radius: 10px;
+  width: 242px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 2px solid #007bff;
+
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  height: 76%;
+  width: 94%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.hover-div:hover .overlay {
+  opacity: .5;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.text {
+  color: #007bff;
+  font-size: 20px;
+  position: absolute;
+  opacity: 1;
+  border-radius: 10px;
+  padding: 5px;
+  top: 45%;
+  left: 50%;
+  background-color: black;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.Portfolio {
+  height: 85rem;
+  background-color: #44589e;
+}
+
+.live-preview {
+  height: 210px;
+  width: 310px;
+}
+
+.yellow {
+  color: yellow !important;
+}
+
+.search {
+  color: white;
+  font-weight: 500;
+  animation: openclose 5s ease-in-out;
+  overflow: hidden;
+}
+
+.line-1 {
+  position: relative;
+  top: 90%;
+  right: 86px;
+  width: 100%;
+  margin: 0 auto;
+  /* text-align: center; */
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  animation: typewriter 3s ease-in-out infinite;
+}
+
+.footer-div {
+  text-align: start;
+  margin-left: 35px;
+  margin-top: 20px;
+  padding: 21px;
+}
+
+.footer {
+  background-color: #4b61c0;
+  margin-top: 82px;
+  height: 80px;
+}
+
+.input {
+  width: 83% !important;
+  margin-top: 10px !important;
+}
+
+.input1 {
+  height: 78px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: none;
+  width: 83% !important;
+  background-color: #c5e0d3;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+.Blog {
+  height: 45rem;
+  background-color: #e8dedc;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.left-div img {
+  border-radius: 50%;
+  border: 2px solid #007bff;
+  position: relative;
+  bottom: 169px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.br {
+  border-radius: 10px;
+}
+
+.Contact {
+  height: 42rem;
+  background-color: #31639b;
+}
+
+.Home {
+  background-color: #4a5090;
+  animation: example;
+  animation-duration: 15s;
+}
+
+@keyframes example {
+  from {
+    background-color: #dbe5ee;
+  }
+
+  to {
+    background-color: #cfe1f1;
+  }
+}
+
+.express-div {
+  width: 60%;
+  justify-content: space-between;
+  margin-top: 66px;
+  margin-left: 19px;
+}
+
+.profile-img {
+  height: 480px;
+  width: 450px;
+  margin-top: 101px;
+  border-radius: 10px;
+  margin-left: 73px;
+  filter: drop-shadow(1px 1px 1px);
+  opacity: 0.9;
+}
+
+.About {
+  display: flex;
+  height: 45rem;
+  background-color: #2d4a7d;
+}
+
+.About .right-div {
+  width: 60%;
+  top: 116px;
+  right: -30px;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.left-div h1 {
+  text-shadow: 2px 2px 4px #000000;
+  color: aliceblue;
+  margin-top: 15rem;
+}
+
+.bg-skyblue {
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  filter: drop-shadow(-3px 9px 7px);
+}
+
+.left-div {
+  margin-top: 23px;
+  margin-left: 28px;
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(16px) saturate(100%);
+  backdrop-filter: blur(16px) saturate(100%);
+  height: 37rem;
+  width: 20rem !important;
+  background-color: #282c34;
+  border: 2px solid #007bff;
+  position: relative;
+}
+
+.Home .title {
+  color: white;
+}
+
+
+.material-symbols-outlined {
+  font-size: 50px;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.content {
+  position: relative;
+  bottom: 160px;
+  color: white;
+}
+
+@keyframes example {
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 200px;
+  }
+
+}
+
+.right-div {
+  height: 37rem;
+  border-radius: 10px;
+  position: relative;
+  top: 136px;
+  /* right:130px;
+   */
+  right: 247px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+
+  }
+}
+
+.Name_title {
+  border-radius: 10px;
+  height: 40px;
+  width: 220px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
