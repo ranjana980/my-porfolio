@@ -14,11 +14,11 @@ export default function About() {
     };
     return (
         <div className="About">
-            <div className="right-div">
-                <div >
-                    <div>
-                        <h1 style={{ textAlign: 'initial', left: '26px', position: 'relative', color: 'rgb(0, 123, 255)', textShadow: '2px 2px 4px #000000' }}>About Me</h1>
-                        <div style={{ textAlign: 'start', left: '26px', position: 'relative',color:'white' }}>
+            <div className="row ml-4 mr-2 p-2" >
+                <div className='col-md-6 col-xs-10 mt-5 '>
+                    <div >
+                        <h1 style={{ textAlign: 'initial', position: 'relative', color: 'rgb(0, 123, 255)', textShadow: '2px 2px 4px #000000' }}>About Me</h1>
+                        <div style={{ textAlign: 'start', position: 'relative', color: 'white' }}>
                             <span>  I'm a Experienced Full Stack Web developer with over 1 years of experience in software industry</span>
                             <span> Excellent reputation for resolving problems and improving customer satisfaction. I'm a Full Stack</span>
                             <span> Web developer to help you to build your personal website with seamless customization. I've</span>
@@ -54,24 +54,19 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-
-                    <div>
-                        <div></div>
+                </div>
+                <div className="col-md-5 col-xs-10">
+                    <div className='lotti'>
+                        <Lottie
+                            options={defaultOptions}
+                            height={600}
+                            width={600}
+                        />
+                        {/* <img className="profile-img" src={Screen} /> */}
                     </div>
-
-
                 </div>
             </div>
-            <div className="left">
-                <div style={{marginTop:'40px',marginLeft:'20px'}}>
-                <Lottie
-                    options={defaultOptions}
-                    height={600}
-                    width={600}
-                />
-                    {/* <img className="profile-img" src={Screen} /> */}
-                </div>
-            </div>
-        </div>
+
+        </div >
     )
 }

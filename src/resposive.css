@@ -1,42 +1,70 @@
-@media only screen and (max-width: 767px) {
-    .right-div img {
-      margin-top: 145px;
-      margin-top: 145px;
-      height: 277px;
-      width: 450px;
-      border-radius: 10px;
-      position: relative;
-      filter: drop-shadow(2px 2px 2px);
-      bottom: 65px;
-      right: 131px;
-    }
-    .live-preview{
-      height: 310px;
-      width: 600px;
-    }
-    .input1 {
-      height: 78px;
-      border-top: none;
-      border-left: none;
-      border-right: none;
-      border-radius: none;
-      width: 100% !important;
-      background-color: #c5e0d3;
+@media only screen and (max-width: 480px) {
+  .right-div img {
+    margin-top: 145px;
+    margin-top: 145px;
+    height: 277px;
+    width: 450px;
+    border-radius: 10px;
+    position: relative;
+    filter: drop-shadow(2px 2px 2px);
+    bottom: 65px;
+    right: 131px;
   }
+
+  .overlay {
+    position: absolute;
+    top: 9px;
+    bottom: 0;
+    left: 9px;
+    right: 0;
+    height: 79%;
+    width: 66%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+    border-radius: 10px;
+  }
+
+  .line-1 {
+    font-size: 30px;
+    /* top:17%; */
+  }
+
+  .live-preview {
+    height: 185px;
+    width: 316px;
+  }
+
+  .input1 {
+    height: 78px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: none;
+    width: 100% !important;
+    background-color: #c5e0d3;
+  }
+
+  .lotti {
+    margin-top: -50px;
+    margin-left: -137px;
+  }
+
   .Contact {
     height: 59rem;
     background-color: #31639b;
-}
+  }
 
-.Resume {
-  background-color: black;
-  filter: drop-shadow(4px 4px 4px);
-  height: 50px;
-  border-radius: 10px;
-  width: 47%;
-  margin-top: 22px;
-  margin-left: -2px;
-}
+  .Resume {
+    background-color: black;
+    filter: drop-shadow(4px 4px 4px);
+    height: 50px;
+    border-radius: 10px;
+    width: 47%;
+    margin-top: 22px;
+    margin-left: -2px;
+  }
+
   .input2 {
     /* height: 78px; */
     border-top: none;
@@ -45,31 +73,41 @@
     border-radius: none;
     width: 100% !important;
     /* background-color: #c5e0d3; */
-}
-    .Portfolio {
-      height: 166rem;
-      background-color: #44589e;
   }
-    .container {
-      position: relative;
-      width: 100%;
+
+  .Portfolio {
+    height: 166rem;
+    background-color: #44589e;
   }
-    .right-div{
-      right: 0px;
-      top:72px;
-    }
-    .Home{
-      height: 64rem;
-      right: 126px;
-    }
-  
-    .icon-div {
-      position: relative;
-      left: 42px;
-      top: -49px;
-      width: 282px;
-      justify-content: space-between;
+
+  .container {
+    position: relative;
+    width: 100%;
   }
+
+  .right-div {
+    right: 0px;
+    top: 72px;
+  }
+
+  .Home img {
+    height: 229px;
+    width: 328px;
+  }
+
+  .Home {
+    height: 51rem;
+    right: 126px;
+  }
+
+  .icon-div {
+    position: relative;
+    left: 0px;
+    top: 90px;
+    width: 282px;
+    justify-content: space-between;
+  }
+
   .navbar-toggler {
     padding: .25rem .75rem;
     font-size: 1.25rem;
@@ -78,25 +116,25 @@
     border: 1px solid transparent;
     border-radius: .25rem;
   }
+
   .Project {
-    margin-left: 6px;
     width: 292px;
     justify-content: space-between;
     position: relative;
-    top: 65px;
+
   }
+
   .Resume1 {
     background-color: black;
     filter: drop-shadow(4px 4px 4px);
     height: 50px;
     border-radius: 10px;
-    width: 25%;
-    margin-top: 49px;
-    margin-left: 66px;
-}
-.About{
-  height: 85rem;
-  flex-wrap: wrap;
-}
-  
+    /* margin-top: 49px; */
   }
+
+  .About {
+    height: 85rem;
+    flex-wrap: wrap;
+  }
+
+}
