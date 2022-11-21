@@ -6,9 +6,9 @@ export default function Contact() {
     return (
         <div>
             <div className="Contact">
-                <div className="row p-md-5 p-sm-5" >
+                <div className="row p-md-5 p-sm-5 " >
                     <div className="col-md-6 col-sm-12">
-                        <div style={{ display: 'flex', width: '15%', color: 'rgb(0, 123, 255)', textShadow: '1px 1px 1px  #000000' }} ><h6>My </h6><h6 style={{ marginTop: '13px',left:'10px' }} className="line-1">Contact</h6>
+                        <div className='contact-div' ><h6>My </h6><h6 style={{ marginTop: '13px',left:'10px' }} className="line-1">Contact</h6>
                         </div>
                         <h2 style={{  textAlign: 'start',textShadow: '2px 2px 4px #000000'  }}>Contact Me</h2>
                         <div style={{ textAlign: 'start',color:'white' }}>

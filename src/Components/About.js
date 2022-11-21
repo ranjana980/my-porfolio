@@ -18,7 +18,7 @@ export default function About() {
                 <div className='col-md-6 col-xs-10 mt-5 '>
                     <div >
                         <h1 style={{ textAlign: 'initial', position: 'relative', color: 'rgb(0, 123, 255)', textShadow: '2px 2px 4px #000000' }}>About Me</h1>
-                        <div style={{ textAlign: 'start', position: 'relative', color: 'white' }}>
+                        <div className='About-me' style={{ textAlign: 'start', position: 'relative', color: 'white' }}>
                             <span>  I'm a Experienced Full Stack Web developer with over 1 years of experience in software industry</span>
                             <span> Excellent reputation for resolving problems and improving customer satisfaction. I'm a Full Stack</span>
                             <span> Web developer to help you to build your personal website with seamless customization. I've</span>
@@ -55,12 +55,11 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-5 col-xs-10">
+                <div className="col-md-5 col-xs-5 col-sm-5">
                     <div className='lotti'>
                         <Lottie
                             options={defaultOptions}
-                            height={600}
-                            width={600}
+                           className="img-lottie"
                         />
                         {/* <img className="profile-img" src={Screen} /> */}
                     </div>

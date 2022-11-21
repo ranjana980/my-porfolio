@@ -10,7 +10,10 @@
 .column {
   margin-top: 10px;
 }
-
+.img-lottie{
+  height: 600px;
+  width: 600px;
+}
 .Home {
   height: 45rem;
   background-color: #cabfbf;
@@ -508,7 +511,22 @@ h1 h2 h3 h4 h5 h6 {
 .App-link {
   color: #61dafb;
 }
-
+.Exp-div{
+  margin-top: 76px;
+ }
+ .my-resume{
+  color: rgb(0, 123, 255);
+    text-shadow: rgb(0 0 0) 2px 2px 4px;
+    position: relative;
+    top: 60px;
+ }
+ .contact-div{
+  display: flex;
+  width: 15%;
+  font-size: 22px;
+  color: rgb(0, 123, 255);
+  text-shadow: rgb(0 0 0) 1px 1px 1px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -518,3 +536,4 @@ h1 h2 h3 h4 h5 h6 {
     transform: rotate(360deg);
   }
 }
+

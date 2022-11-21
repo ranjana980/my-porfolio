@@ -8,7 +8,6 @@ import Contact from './Components/Contact';
 
 import { useRef } from 'react';
 import About from './Components/About';
-import Blog from './Components/Blog';
 
 function App() {
   const ref = useRef(null);

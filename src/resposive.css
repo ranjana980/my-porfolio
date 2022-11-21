@@ -1,4 +1,4 @@
-@media only screen and ((max-width: 480px) and (min-width:320)) {
+@media only screen and (max-width: 480px) {
   .right-div img {
     margin-top: 145px;
     margin-top: 145px;
@@ -46,9 +46,17 @@
   }
 
   .lotti {
-    margin-top: -50px;
-    margin-left: -137px;
-  }
+    height: 296px;
+    margin-top: 4px;
+    margin-left: -63px;
+    width: 419px;
+}
+.About-me{
+  text-align: start;
+  position: relative;
+  color: white;
+  margin-right: 153px;
+}
 
   .Contact {
     height: 59rem;
@@ -60,10 +68,24 @@
     filter: drop-shadow(4px 4px 4px);
     height: 50px;
     border-radius: 10px;
-    width: 47%;
+    width: 50%;
     margin-top: 22px;
     margin-left: -2px;
   }
+  .bg-skyblue {
+    z-index: 1;
+    width: 72%;
+    position: fixed;
+    background-color: black;
+    filter: drop-shadow(-3px 9px 7px);
+}
+  .footer-div {
+    font-size: 16px;
+    text-align: start;
+    margin-left: -5px;
+    margin-top: 20px;
+    padding: 21px;
+}
 
   .input2 {
     /* height: 78px; */
@@ -76,10 +98,22 @@
   }
 
   .Portfolio {
-    height: 166rem;
+    height: 172rem;
     background-color: #44589e;
   }
-
+  .p-sm-5{
+    padding: 15px;
+  }
+  .contact-div{
+    display: flex;
+    width: 43%;
+    font-size: 22px;
+    color: rgb(0, 123, 255);
+    text-shadow: rgb(0 0 0) 1px 1px 1px;
+  }
+  .contact-div h6{
+    font-size: 22px;
+  }
   .container {
     position: relative;
     width: 100%;
@@ -103,7 +137,7 @@
   .icon-div {
     position: relative;
     left: 0px;
-    top: 90px;
+    top: 30px;
     width: 282px;
     justify-content: space-between;
   }
@@ -118,6 +152,7 @@
   }
 
   .Project {
+    margin-top: 31px;
     width: 292px;
     justify-content: space-between;
     position: relative;
@@ -133,8 +168,34 @@
   }
 
   .About {
-    height: 85rem;
+    height: 80rem;
     flex-wrap: wrap;
   }
-
+  .Home img {
+    height: 230px;
+    width: 325px;
+    position: relative;
+    opacity: .8;
+    border-radius: 10px;
+    /* right: 16px; */
+}
+.img-lottie{
+  height: 400px !important;
+  width: 400px !important;
+}
+.bg-white {
+  margin-left: 43px !important;
+  width: 79%;
+  background-color: #fff!important;
+  margin-top: 10px;
+}
+.Exp-div{
+ margin-top: 0px;
+}
+.my-resume{
+  color: rgb(0, 123, 255);
+    text-shadow: rgb(0 0 0) 2px 2px 4px;
+    position: relative;
+    top: 35px;
+ }
 }

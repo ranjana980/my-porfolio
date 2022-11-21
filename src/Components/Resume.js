@@ -10,7 +10,7 @@ export default function MyPortFolio() {
     return (
         <div className="Portfolio ">
             <div className="Main-div">
-                <h1 className='text-center' style={{ color: 'rgb(0, 123, 255)', textShadow: '2px 2px 4px  #000000', position: 'relative', top: '60px' }}>My Resume</h1>
+                <h1 className='text-center my-resume' >My Resume</h1>
                 <div className='d-flex row'>
                     <div className='col-md-6 col-sm-12 ml-4  mt-5' >
                         <h5 className='Year1'>2010 - 2012</h5>
@@ -79,7 +79,7 @@ export default function MyPortFolio() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-5 col-sm-12 ml-4' style={{ marginTop: '76px' }}>
+                    <div className='col-md-5 col-sm-12 ml-4 Exp-div' >
                         <h5 className='Year1'>2021 - 2022</h5>
                         <div className='d-flex'>
                             <div>
@@ -193,7 +193,7 @@ export default function MyPortFolio() {
                             </div>
                             <h5 style={{ color: 'black', textShadow: '1px 1px 1px' }}>Emoji Search</h5>
                         </div>
-                        <div className='col-md-3 col-sm-2  br bg-white ml-4 mr-sm-5 p-2 col-xs-2'>
+                        <div className='col-md-3 col-sm-3  br bg-white ml-4 mr-sm-3 p-2 col-xs-3'>
                             <div className='hover-div'>
                                 <img className='br live-preview' src={recipe} />
                                 <div class="overlay">
