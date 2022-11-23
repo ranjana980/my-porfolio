@@ -46,9 +46,9 @@ export default function Home() {
                         <LinkedInIcon className="Sociel-icon1" />
                     </a>
                     <a href='https://github.com/ranjana980' target="_blank"><GitHubIcon className="Sociel-icon2" /></a>
-                    <TwitterIcon className="Sociel-icon3" />
-                    <InstagramIcon className="Sociel-icon4" />
-                    <FacebookIcon className="Sociel-icon5" />
+                    <TwitterIcon className="Sociel-icon3" href="https://twitter.com/RanjanaChoudary?t=A7OancGyt0WnrZBOVxrG_w&s=09"/>
+                    <InstagramIcon className="Sociel-icon4" href="https://www.instagram.com/ranjanachaudhary_123/"/>
+                    <FacebookIcon className="Sociel-icon5" href="https://www.facebook.com/Ranjana24081996?mibextid=ZbWKwL" />
                 </div>
 
             </div>
