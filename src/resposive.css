@@ -73,7 +73,7 @@
   }
   .bg-skyblue {
     z-index: 1;
-    width: 72%;
+    width: 100%;
     position: fixed;
     background-color: black;
     filter: drop-shadow(-3px 9px 7px);
@@ -99,7 +99,7 @@
   .Portfolio {
     max-height: 187rem;
     background-color: #44589e;
-    min-height: 167rem;
+    min-height: 172rem;
   }
   .p-sm-5{
     padding: 15px;
@@ -169,6 +169,7 @@
 
   .About {
     height: 80rem;
+    overflow: hidden;
     flex-wrap: wrap;
   }
   .Home img {
@@ -188,7 +189,7 @@
 }
 .bg-white {
   margin-left: 43px !important;
-  width: 59%;
+  width: 68%;
   background-color: #fff!important;
   margin-top: 10px;
 }

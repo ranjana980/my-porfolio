@@ -179,6 +179,12 @@ export default function MyPortFolio() {
                             <LinearProgress variant="determinate" color="secondary" value={70} />
                         </div>
                     </div>
+                    <div className='row '>
+                        <div className='col-md-4  col-sm-5 col-xs-3'>
+                            <div className='d-flex' style={{ justifyContent: 'space-between', color: 'white' }} ><h6>Canvas</h6><h6>70%</h6></div>
+                            <LinearProgress variant="determinate" color="secondary" value={70} />
+                        </div>
+                    </div>
                 </div>
                 <div>
                     <h1 className='mt-3 text-center' style={{ color: 'rgb(0, 123, 255)', textShadow: '2px 2px 4px  #000000', }}>Projects</h1>
