@@ -213,7 +213,7 @@ export default function MyPortFolio() {
                                 <img className='br live-preview' src={doctor} />
                                 <div class="overlay">
                                 </div>
-                                <div class="text"><a target='_blank' href='doctor.xpresscure.com'>Live Preview</a></div>
+                                <div class="text"><a target='_blank' href='test-doctor.xpresscure.com'>Live Preview</a></div>
                             </div>
                             <h5 style={{ color: 'black', textShadow: '1px 1px 1px' }}>Doctor Web App</h5>
                         </div>
