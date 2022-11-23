@@ -1,4 +1,4 @@
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px)  {
   .right-div img {
     margin-top: 145px;
     margin-top: 145px;
@@ -26,13 +26,13 @@
   }
 
   .line-1 {
-    font-size: 30px;
+    font-size: 23px;
     /* top:17%; */
   }
 
   .live-preview {
     height: 185px;
-    width: 316px;
+    width: 267px;
   }
 
   .input1 {
@@ -68,7 +68,6 @@
     filter: drop-shadow(4px 4px 4px);
     height: 50px;
     border-radius: 10px;
-    width: 50%;
     margin-top: 22px;
     margin-left: -2px;
   }
@@ -98,8 +97,9 @@
   }
 
   .Portfolio {
-    height: 172rem;
+    max-height: 187rem;
     background-color: #44589e;
+    min-height: 167rem;
   }
   .p-sm-5{
     padding: 15px;
@@ -172,12 +172,15 @@
     flex-wrap: wrap;
   }
   .Home img {
-    height: 230px;
-    width: 325px;
+    min-height: 179px;
+    max-height: 211px;
+    /* width: 254px; */
+    min-width: 254px;
+    max-width: 330px;
     position: relative;
     opacity: .8;
     border-radius: 10px;
-    /* right: 16px; */
+    
 }
 .img-lottie{
   height: 400px !important;
@@ -185,7 +188,7 @@
 }
 .bg-white {
   margin-left: 43px !important;
-  width: 79%;
+  width: 59%;
   background-color: #fff!important;
   margin-top: 10px;
 }

@@ -6,7 +6,6 @@ import emmoji from '../emmoji.png'
 import recipe from '../recipe.png'
 import doctor from '../DoctorWebApp.png'
 export default function MyPortFolio() {
-    // const normalise = (value) => ((value - 100) * 100) / (100- 100);
     return (
         <div className="Portfolio ">
             <div className="Main-div">
