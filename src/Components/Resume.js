@@ -50,8 +50,10 @@ export default function MyPortFolio() {
                         </div>
                         <h5 className='Year1'>2015 - 2017</h5>
                         <div className='d-flex'>
-                            <CastForEducationIcon style={{ fontSize: '30px', marginRight: '10px', marginTop: '7px' }} />
+                           <div>
+                           <CastForEducationIcon style={{ fontSize: '30px', marginRight: '10px', marginTop: '7px' }} />
                             <div className='line'></div>
+                           </div>
                             <div style={{ textAlign: 'start' }}>
                                 <div className='d-flex'><h4 style={{ color: 'rgb(0, 123, 255)', textShadow: '1px 1px 1px #000000' }}>Deen Dayal Upadhyay University of Gorkhpur</h4></div>
                                 <div style={{ color: 'white' }}>
@@ -258,7 +260,7 @@ export default function MyPortFolio() {
                             </div>
                             <h5 style={{ color: 'black', textShadow: '1px 1px 1px' }}>Figma Design</h5>
                         </div> */}
-                        <div className='col-md-3 col-sm-2  br bg-white ml-4 mr-sm-5 p-2 col-xs-2'>
+                        <div className='col-md-3 col-sm-2  br bg-white  mr-sm-5 p-2 col-xs-2'>
                             <div className='hover-div'>
                                 <img className='br live-preview' src={doctor} />
                                 <div class="overlay">
