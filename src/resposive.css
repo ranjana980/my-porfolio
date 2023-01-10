@@ -1,4 +1,5 @@
-@media only screen and (min-width: 320px) and (max-width: 480px)  {
+/* mobile */
+@media only screen and (min-width: 320px) and (max-width: 778px)  {
   .right-div img {
     margin-top: 145px;
     margin-top: 145px;
@@ -27,7 +28,6 @@
 
   .line-1 {
     font-size: 23px;
-    /* top:17%; */
   }
 
   .live-preview {
@@ -87,13 +87,215 @@
 }
 
   .input2 {
-    /* height: 78px; */
     border-top: none;
     border-left: none;
     border-right: none;
     border-radius: none;
     width: 100% !important;
-    /* background-color: #c5e0d3; */
+  }
+
+  .Portfolio {
+    max-height: auto;
+    background-color: #44589e;
+    /* min-height: 172rem; */
+  }
+  .Main-div{
+    padding-bottom: 10px;
+  }
+  .p-sm-5{
+    padding: 15px;
+  }
+  .contact-div{
+    display: flex;
+    width: 43%;
+    font-size: 22px;
+    color: rgb(0, 123, 255);
+    text-shadow: rgb(0 0 0) 1px 1px 1px;
+  }
+  .contact-div h6{
+    font-size: 22px;
+  }
+  .container {
+    position: relative;
+    width: 100%;
+  }
+
+  .right-div {
+    right: 0px;
+    top: 72px;
+  }
+
+  .Home img {
+    height: 229px;
+    width: 328px;
+  }
+
+  .Home {
+    height: 51rem;
+    right: 126px;
+  }
+
+  .icon-div {
+    position: relative;
+    left: 0px;
+    top: 30px;
+    width: 282px;
+    justify-content: space-between;
+  }
+
+  .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+  }
+
+  .Project {
+    margin-top: 31px;
+    width: 292px;
+    justify-content: space-between;
+    position: relative;
+
+  }
+
+  .Resume1 {
+    background-color: black;
+    filter: drop-shadow(4px 4px 4px);
+    height: 50px;
+    border-radius: 10px;
+  }
+
+  .About {
+    height: 80rem;
+    overflow: hidden;
+    flex-wrap: wrap;
+  }
+  .Home img {
+    min-height: 179px;
+    max-height: 211px;
+    min-width: 254px;
+    max-width: 330px;
+    position: relative;
+    opacity: .8;
+    border-radius: 10px;
+    
+}
+.img-lottie{
+  height: 400px !important;
+  width: 400px !important;
+}
+.bg-white {
+  margin-left: 43px !important;
+  width: 68%;
+  background-color: #fff!important;
+  margin-top: 10px;
+}
+.Exp-div{
+ margin-top: 0px;
+}
+.my-resume{
+  color: rgb(0, 123, 255);
+    text-shadow: rgb(0 0 0) 2px 2px 4px;
+    position: relative;
+    top: 35px;
+ }
+}
+/* landscap */
+@media only screen and (min-width: 578px) and (max-width: 778px) {
+  .right-div img {
+    margin-top: 145px;
+    margin-top: 145px;
+    height: 277px;
+    width: 450px;
+    border-radius: 10px;
+    position: relative;
+    filter: drop-shadow(2px 2px 2px);
+    bottom: 65px;
+    right: 131px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 9px;
+    bottom: 0;
+    left: 9px;
+    right: 0;
+    height: 79%;
+    width: 66%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+    border-radius: 10px;
+  }
+
+  .line-1 {
+    font-size: 23px;
+  }
+
+  .live-preview {
+    height: 185px;
+    width: 267px;
+  }
+
+  .input1 {
+    height: 78px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: none;
+    width: 100% !important;
+    background-color: #c5e0d3;
+  }
+
+  .lotti {
+    height: 296px;
+    margin-top: 4px;
+    margin-left: -63px;
+    width: 419px;
+}
+.About-me{
+  text-align: start;
+  position: relative;
+  color: white;
+  margin-right: 153px;
+}
+
+  .Contact {
+    height: 59rem;
+    background-color: #31639b;
+  }
+
+  .Resume {
+    background-color: black;
+    filter: drop-shadow(4px 4px 4px);
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 22px;
+    margin-left: -2px;
+  }
+  .bg-skyblue {
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    filter: drop-shadow(-3px 9px 7px);
+}
+  .footer-div {
+    font-size: 16px;
+    text-align: start;
+    margin-left: -5px;
+    margin-top: 20px;
+    padding: 21px;
+}
+
+  .input2 {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: none;
+    width: 100% !important;
   }
 
   .Portfolio {
@@ -164,7 +366,6 @@
     filter: drop-shadow(4px 4px 4px);
     height: 50px;
     border-radius: 10px;
-    /* margin-top: 49px; */
   }
 
   .About {
@@ -175,7 +376,6 @@
   .Home img {
     min-height: 179px;
     max-height: 211px;
-    /* width: 254px; */
     min-width: 254px;
     max-width: 330px;
     position: relative;
@@ -202,4 +402,211 @@
     position: relative;
     top: 35px;
  }
+}
+/*  tabletes*/
+@media only screen and (min-width: 778px) and (max-width: 1024px) {
+  .right-div img {
+    margin-top: 145px;
+    margin-top: 145px;
+    height: 277px;
+    width: 450px;
+    border-radius: 10px;
+    position: relative;
+    filter: drop-shadow(2px 2px 2px);
+    bottom: 65px;
+    right: 131px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 9px;
+    bottom: 0;
+    left: 9px;
+    right: 0;
+    height: 79%;
+    width: 66%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+    border-radius: 10px;
+  }
+
+  .line-1 {
+    font-size: 23px;
+  }
+
+  .live-preview {
+    height: 185px;
+    width: 267px;
+  }
+
+  .input1 {
+    height: 78px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: none;
+    width: 100% !important;
+    background-color: #c5e0d3;
+  }
+
+  .lotti {
+    height: 296px;
+    margin-top: 4px;
+    margin-left: -63px;
+    width: 419px;
+}
+.About-me{
+  text-align: start;
+  position: relative;
+  color: white;
+  margin-right: 153px;
+}
+
+  .Contact {
+    height: 59rem;
+    background-color: #31639b;
+  }
+
+  .Resume {
+    background-color: black;
+    filter: drop-shadow(4px 4px 4px);
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 22px;
+    margin-left: -2px;
+  }
+  .bg-skyblue {
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    filter: drop-shadow(-3px 9px 7px);
+}
+  .footer-div {
+    font-size: 16px;
+    text-align: start;
+    margin-left: -5px;
+    margin-top: 20px;
+    padding: 21px;
+}
+
+  .input2 {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: none;
+    width: 100% !important;
+  }
+
+  .Portfolio {
+    max-height: 187rem;
+    background-color: #44589e;
+    min-height: 172rem;
+  }
+  .p-sm-5{
+    padding: 15px;
+  }
+  .contact-div{
+    display: flex;
+    width: 43%;
+    font-size: 22px;
+    color: rgb(0, 123, 255);
+    text-shadow: rgb(0 0 0) 1px 1px 1px;
+  }
+  .contact-div h6{
+    font-size: 22px;
+  }
+  .container {
+    position: relative;
+    width: 100%;
+  }
+
+  .right-div {
+    right: 0px;
+    top: 72px;
+  }
+
+  .Home img {
+    height: 229px;
+    width: 328px;
+  }
+
+  .Home {
+    height: 51rem;
+    right: 126px;
+  }
+
+  .icon-div {
+    position: relative;
+    left: 0px;
+    top: 30px;
+    width: 282px;
+    justify-content: space-between;
+  }
+
+  .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+  }
+
+  .Project {
+    margin-top: 31px;
+    width: 292px;
+    justify-content: space-between;
+    position: relative;
+
+  }
+
+  .Resume1 {
+    background-color: black;
+    filter: drop-shadow(4px 4px 4px);
+    height: 50px;
+    border-radius: 10px;
+  }
+
+  .About {
+    height: 80rem;
+    overflow: hidden;
+    flex-wrap: wrap;
+  }
+  .Home img {
+    min-height: 179px;
+    max-height: 211px;
+    min-width: 254px;
+    max-width: 330px;
+    position: relative;
+    opacity: .8;
+    border-radius: 10px;
+    
+}
+.img-lottie{
+  height: 400px !important;
+  width: 400px !important;
+}
+.bg-white {
+  margin-left: 43px !important;
+  width: 68%;
+  background-color: #fff!important;
+  margin-top: 10px;
+}
+.Exp-div{
+ margin-top: 0px;
+}
+.my-resume{
+  color: rgb(0, 123, 255);
+    text-shadow: rgb(0 0 0) 2px 2px 4px;
+    position: relative;
+    top: 35px;
+ }
+}
+/* desktop */
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+}
+/* Large Desktop */
+@media only screen and (min-width: 1280px) and (max-width: 1400px) {
 }

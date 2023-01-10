@@ -46,7 +46,7 @@ export default function About() {
                                 <span>I have made a Curd Applications</span>
                                 <span>using Reactjs,nodejs,Expressjs,Mongodb.</span>
                                 <span> we can add,edit,delete,search by name,</span>
-                                <span> pagination calling by Api.</span>
+                                <span> pagination calling by Api.and created Login and signup api for e-commerce website in which I used jwt token and encryption for password</span>
                             </div>
                         </div>
                     </div>
@@ -60,7 +60,6 @@ export default function About() {
                     </div>
                 </div>
             </div>
-
         </div >
     )
 }

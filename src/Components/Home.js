@@ -8,21 +8,24 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
+import Resume from '../../src/Resume.pdf'
 
 export default function Home() {
     return (
         <div className="Home">
             <div className='row p-md-5 pt-5'>
                 <div className=' col-xs-12 col-sm-12 col-md-5 mt-5 ml-5   '>
-                    <h1  style={{ textShadow: '2px 2px 4px #000000',color:'white' }}>Hi, I am A</h1><h2  style={{ color: '#007bff', animationPlayState: true, textShadow: '2px 2px 4px #000000',  }} className="line-1 mt-5 "> MERN Stack Developer</h2>
-                    <div className='d-flex Resume1 mt-3'>
-                        <span class="material-symbols-outlined icon">
-                            file_download
-                        </span><h5>My Resume</h5>
-                    </div>
+                    <h1 style={{ textShadow: '2px 2px 4px #000000', color: 'white' }}>Hi, I am A</h1><h2 style={{ color: '#007bff', animationPlayState: true, textShadow: '2px 2px 4px #000000', }} className="line-1 mt-5 "> MERN Stack </h2>
+                    <a href={Resume} target="_blank">
+                        <div className='d-flex Resume1 mt-3'>
+                            <span class="material-symbols-outlined icon">
+                                file_download
+                            </span><h5>My Resume</h5>
+                        </div>
+                    </a>
                 </div>
                 <div className=' col-xs-12 col-sm-12 col-md-5 mt-5 ml-5'>
-                    <img src="https://i.redd.it/yi5mqepvjz4y.jpg"  />
+                    <img src="https://i.redd.it/yi5mqepvjz4y.jpg" />
 
                 </div>
             </div>
@@ -46,9 +49,9 @@ export default function Home() {
                         <LinkedInIcon className="Sociel-icon1" />
                     </a>
                     <a href='https://github.com/ranjana980' target="_blank"><GitHubIcon className="Sociel-icon2" /></a>
-                    <a  href="https://twitter.com/RanjanaChoudary?t=A7OancGyt0WnrZBOVxrG_w&s=09" target="_blank"><TwitterIcon className="Sociel-icon3"/></a>
-                    <a href="https://www.instagram.com/ranjanachaudhary_123/"  target="_blank"><InstagramIcon className="Sociel-icon4" /></a>
-                    <a href="https://www.facebook.com/Ranjana24081996?mibextid=ZbWKwL" target="_blank"><FacebookIcon className="Sociel-icon5"  /></a>
+                    <a href="https://twitter.com/RanjanaChoudary?t=A7OancGyt0WnrZBOVxrG_w&s=09" target="_blank"><TwitterIcon className="Sociel-icon3" /></a>
+                    <a href="https://www.instagram.com/ranjanachaudhary_123/" target="_blank"><InstagramIcon className="Sociel-icon4" /></a>
+                    <a href="https://www.facebook.com/Ranjana24081996?mibextid=ZbWKwL" target="_blank"><FacebookIcon className="Sociel-icon5" /></a>
                 </div>
 
             </div>

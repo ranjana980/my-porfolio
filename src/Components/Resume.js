@@ -3,8 +3,11 @@ import CastForEducationIcon from '@material-ui/icons/CastForEducation';
 import WorkIcon from '@material-ui/icons/Work';
 import LinearProgress from '@material-ui/core/LinearProgress'
 import emmoji from '../emmoji.png'
-import recipe from '../recipe.png'
 import doctor from '../DoctorWebApp.png'
+import recipe from '../recipe.png'
+import figma from '../figma-design.png'
+import github from '../github-finder.png'
+import pokemon from '../Pokemon.png'
 export default function MyPortFolio() {
     return (
         <div className="Portfolio ">
@@ -18,7 +21,6 @@ export default function MyPortFolio() {
                                 <CastForEducationIcon style={{ fontSize: '30px', marginRight: '10px', marginTop: '7px' }} />
                                 <div className='line'></div>
                             </div>
-
                             <div style={{ textAlign: 'start' }}>
                                 <div className='d-flex'><h4 style={{ color: 'rgb(0, 123, 255)', textShadow: '1px 1px 1px #000000' }}>Board of HighSchool and Intermediat Educational</h4></div>
                                 <div style={{ color: 'white' }}>
@@ -192,12 +194,12 @@ export default function MyPortFolio() {
                     <div className='row mt-4 ml-sm-1 '>
                         <div className='col-md-3 col-sm-2  br bg-white ml-4 mr-sm-5 p-2 col-xs-2'>
                             <div className='hover-div'>
-                                <img className='br  live-preview' src={emmoji} />
+                                <img className='br live-preview' src={github} />
                                 <div class="overlay">
                                 </div>
-                                <div class="text"><a target='_blank' href='https://emoji-search-beta.vercel.app/'>Live Preview</a></div>
+                                <div class="text"><a target='_blank' href='https://git-finder-gray.vercel.app/'>Live Preview</a></div>
                             </div>
-                            <h5 style={{ color: 'black', textShadow: '1px 1px 1px' }}>Emoji Search</h5>
+                            <h5 style={{ color: 'black', textShadow: '1px 1px 1px' }}>GitHub Finder</h5>
                         </div>
                         <div className='col-md-3 col-sm-3  br bg-white ml-4 mr-sm-3 p-2 col-xs-3'>
                             <div className='hover-div'>
@@ -210,10 +212,58 @@ export default function MyPortFolio() {
                         </div>
                         <div className='col-md-3 col-sm-2  br bg-white ml-4 mr-sm-5 p-2 col-xs-2'>
                             <div className='hover-div'>
+                                <img className='br live-preview' src={figma} />
+                                <div class="overlay">
+                                </div>
+                                <div class="text"><a target='_blank' href='https://figma-design-l4vx.vercel.app/'>Live Preview</a></div>
+                            </div>
+                            <h5 style={{ color: 'black', textShadow: '1px 1px 1px' }}>Figma Design</h5>
+                        </div>
+                       
+                    </div>
+                    <div className='row mt-4 ml-sm-1 '>
+                        <div className='col-md-3 col-sm-2  br bg-white ml-4 mr-sm-5 p-2 col-xs-2'>
+                            <div className='hover-div'>
+                                <img className='br live-preview' src={pokemon} />
+                                <div class="overlay">
+                                </div>
+                                <div class="text"><a target='_blank' href='https://pokemon-git-master-ranjana980.vercel.app/'>Live Preview</a></div>
+                            </div>
+                            <h5 style={{ color: 'black', textShadow: '1px 1px 1px' }}>Pokemon</h5>
+                        </div>
+                        <div className='col-md-3 col-sm-2  br bg-white ml-4 mr-sm-5 p-2 col-xs-2'>
+                            <div className='hover-div'>
+                                <img className='br live-preview' src={emmoji} />
+                                <div class="overlay">
+                                </div>
+                                <div class="text"><a target='_blank' href='https://emoji-search-beta.vercel.app/'>Live Preview</a></div>
+                            </div>
+                            <h5 style={{ color: 'black', textShadow: '1px 1px 1px' }}>Emmoji Search</h5>
+                        </div>
+                        {/* <div className='col-md-3 col-sm-3  br bg-white ml-4 mr-sm-3 p-2 col-xs-3'>
+                            <div className='hover-div'>
+                                <img className='br live-preview' src={recipe} />
+                                <div class="overlay">
+                                </div>
+                                <div class="text"><a target='_blank' href='https://react-food-recipe-finder.vercel.app/'>Live Preview</a></div>
+                            </div>
+                            <h5 style={{ color: 'black', textShadow: '1px 1px 1px' }}>Food Recipe Finder</h5>
+                        </div>
+                        <div className='col-md-3 col-sm-2  br bg-white ml-4 mr-sm-5 p-2 col-xs-2'>
+                            <div className='hover-div'>
+                                <img className='br live-preview' src={figma} />
+                                <div class="overlay">
+                                </div>
+                                <div class="text"><a target='_blank' href='https://figma-design-l4vx.vercel.app/'>Live Preview</a></div>
+                            </div>
+                            <h5 style={{ color: 'black', textShadow: '1px 1px 1px' }}>Figma Design</h5>
+                        </div> */}
+                        <div className='col-md-3 col-sm-2  br bg-white ml-4 mr-sm-5 p-2 col-xs-2'>
+                            <div className='hover-div'>
                                 <img className='br live-preview' src={doctor} />
                                 <div class="overlay">
                                 </div>
-                                <div class="text"><a target='_blank' href='test-doctor.xpresscure.com'>Live Preview</a></div>
+                                <div class="text"><a target='_blank' href='doctor.xpresscure.com'>Live Preview</a></div>
                             </div>
                             <h5 style={{ color: 'black', textShadow: '1px 1px 1px' }}>Doctor Web App</h5>
                         </div>

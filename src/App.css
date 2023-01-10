@@ -6,7 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.Main-div{
+  /* margin-bottom: 10px; */
+  padding-bottom: 10px;
+}
 .column {
   margin-top: 10px;
 }
@@ -172,7 +175,7 @@ h5 {
 }
 .Resume1 {
   background-color: black;
-  filter: drop-shadow(4px 4px 4px);
+  /* filter: drop-shadow(4px 4px 4px); */
   height: 57px;
   border-radius: 10px;
   width: 185px;
@@ -263,7 +266,8 @@ a:hover {
 }
 
 .Portfolio {
-  height: 85rem;
+  height: auto;
+  /* margin-bottom: 10px; */
   background-color: #44589e;
 }
 
@@ -382,7 +386,7 @@ a:hover {
 }
 
 .express-div {
-  width: 60%;
+  width: 100%;
   justify-content: space-between;
   margin-top: 66px;
 }
