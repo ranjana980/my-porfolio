@@ -6,19 +6,23 @@
   height: 40vmin;
   pointer-events: none;
 }
-.Main-div{
+
+.Main-div {
   /* margin-bottom: 10px; */
   padding-bottom: 10px;
 }
+
 .column {
   margin-top: 10px;
 }
-.img-lottie{
+
+.img-lottie {
   height: 600px;
   width: 600px;
 }
+
 .Home {
-  height: 45rem;
+  height: 39rem;
   background-color: #cabfbf;
 }
 
@@ -32,7 +36,7 @@
   height: 400px;
   width: 600px;
   position: relative;
-  opacity: .8;
+  opacity: 0.8;
   border-radius: 10px;
   /* right: 16px; */
 }
@@ -60,10 +64,8 @@
   width: 384px;
   justify-content: space-between;
   position: relative;
-  
-  color: white;
-}
 
+}
 
 .Sociel-icon1 {
   font-size: 35px !important;
@@ -76,7 +78,6 @@
   color: #000000;
   filter: drop-shadow(1px 1px 1px);
 }
-
 
 .icon-div {
   position: relative;
@@ -114,13 +115,33 @@
 }
 
 .line {
-  height: 65px;
-  width: 3px;
+  height: 46rem;
+  width: 4px;
   position: relative;
   background-color: #007bff;
   border-radius: 6px;
-  top: 24px;
-  left: 10px;
+  left: 35px;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color:#007bff ;
+  border-radius: 5px;
+  height: 20px;
+  outline: 2px solid lightgray;
+}
+
+.line1 {
+  height: 12rem;
+  width: 4px;
+  position: relative;
+  background-color: #007bff;
+  border-radius: 6px;
+  left: 22px;
 }
 
 .Year1 {
@@ -139,7 +160,6 @@
 }
 
 .icon {
-  color: white;
   position: relative;
   font-size: 35px !important;
   top: 8px;
@@ -147,16 +167,13 @@
 }
 
 h1 h2 h3 h4 h5 h6 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
 
 h5 {
   font-size: 21px;
-  color: white;
   margin-left: 10px;
   margin-top: 10px;
-  text-shadow: rgb(0 0 0) 6px 5px 10px;
 }
 
 .title {
@@ -173,6 +190,7 @@ h5 {
   margin-top: 70px;
   margin-left: 68px;
 }
+
 .Resume1 {
   background-color: black;
   /* filter: drop-shadow(4px 4px 4px); */
@@ -190,13 +208,10 @@ h5 {
   width: 242px;
   margin-top: 25px;
   margin-left: 10px;
-  color: white;
   border: 2px solid #007bff;
-
 }
 
 .Eductaion {
-  color: white;
   background-color: white;
   height: 311px;
   font-size: 12px;
@@ -205,7 +220,6 @@ h5 {
   margin-top: 10px;
   margin-left: 10px;
   border: 2px solid #007bff;
-
 }
 
 .container {
@@ -228,7 +242,7 @@ h5 {
   height: 79%;
   width: 95%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background-color: black;
   border-radius: 10px;
 }
@@ -237,18 +251,17 @@ h5 {
   margin-top: 40px;
   margin-left: 20px;
 }
+
 .hover-div:hover .overlay {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 a {
   text-decoration: none;
-  color: white;
 }
 
 a:hover {
   text-decoration: none;
-  color: white;
 }
 
 .text {
@@ -268,12 +281,12 @@ a:hover {
 .Portfolio {
   height: auto;
   /* margin-bottom: 10px; */
-  background-color: #44589e;
+  background-color: #ECF0F3;
 }
 
 .live-preview {
-  height: 240px;
-  width: 355px;
+  height: 320px;
+  width: 432px;
 }
 
 .yellow {
@@ -281,7 +294,6 @@ a:hover {
 }
 
 .search {
-  color: white;
   font-weight: 500;
   animation: openclose 5s ease-in-out;
   overflow: hidden;
@@ -289,12 +301,9 @@ a:hover {
 
 .line-1 {
   position: relative;
-  /* top: 21%; */
-  /* right: 76px; */
-  /* width: 100%; */
   margin: 0 auto;
-  /* text-align: center; */
   white-space: nowrap;
+  border-right: 2px solid rgb(59 130 246);
   overflow: hidden;
   transform: translateY(-50%);
   animation: typewriter 5s ease-in-out infinite;
@@ -308,7 +317,7 @@ a:hover {
 }
 
 .footer {
-  background-color: #4b61c0;
+  background-color: #ECF0F3;
   margin-top: 82px;
   height: 80px;
 }
@@ -340,16 +349,12 @@ a:hover {
 
 .Blog {
   height: 45rem;
-  background-color: #e8dedc;
+  background-color: #ECF0F3;
 }
 
-.navbar-light .navbar-brand {
-  color: white;
-}
 
-.nav-link {
-  color: white !important;
-}
+
+
 
 .left-div img {
   border-radius: 50%;
@@ -360,17 +365,21 @@ a:hover {
   margin-left: 5px;
 }
 
+.flex {
+  display: flex;
+}
+
 .br {
   border-radius: 10px;
 }
 
 .Contact {
   height: 42rem;
-  background-color: #31639b;
+  background-color: #ECF0F3;
 }
 
 .Home {
-  background-color: #4a5090;
+  background-color: #ECF0F3;
   animation: example;
   animation-duration: 15s;
 }
@@ -403,13 +412,12 @@ a:hover {
 
 .About {
   display: flex;
-  height: 45rem;
-  background-color: #2d4a7d;
+  height: 59rem;
 }
 
 .About .right-div {
   width: 60%;
-  top: 116px;
+  top: 100px;
   right: -30px;
 }
 
@@ -444,24 +452,16 @@ h1 h2 h3 h4 h5 h6 {
   position: relative;
 }
 
-.Home .title {
-  color: white;
-}
 
 
 .material-symbols-outlined {
   font-size: 50px;
-  font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
 .content {
   position: relative;
   bottom: 160px;
-  color: white;
 }
 
 @keyframes example {
@@ -474,7 +474,6 @@ h1 h2 h3 h4 h5 h6 {
     left: 0px;
     top: 200px;
   }
-
 }
 
 .right-div {
@@ -490,7 +489,6 @@ h1 h2 h3 h4 h5 h6 {
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
-
   }
 }
 
@@ -498,39 +496,41 @@ h1 h2 h3 h4 h5 h6 {
   border-radius: 10px;
   height: 40px;
   width: 220px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
   color: #61dafb;
 }
-.Exp-div{
+
+.Exp-div {
   margin-top: 76px;
- }
- .my-resume{
+}
+
+.my-resume {
   color: rgb(0, 123, 255);
-    text-shadow: rgb(0 0 0) 2px 2px 4px;
-    position: relative;
-    top: 60px;
- }
- .contact-div{
+  text-shadow: rgb(0 0 0) 2px 2px 4px;
+  position: relative;
+  top: 60px;
+}
+
+.contact-div {
   display: flex;
   width: 15%;
   font-size: 22px;
   color: rgb(0, 123, 255);
   text-shadow: rgb(0 0 0) 1px 1px 1px;
 }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -540,4 +540,3 @@ h1 h2 h3 h4 h5 h6 {
     transform: rotate(360deg);
   }
 }
-

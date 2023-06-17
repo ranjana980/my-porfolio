@@ -1,5 +1,6 @@
 import Footer from './Footer';
 import { TextField, TextareaAutosize } from '@material-ui/core'
+import { LinkedIn, GitHub, Instagram, Facebook, Twitter, ArrowForward } from '@material-ui/icons';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 // import { Mailer } from 'nodemailer-react'
 
@@ -37,40 +38,78 @@ export default function Contact() {
     return (
         <div>
             <div className="Contact">
-                <div className="row p-md-5 p-sm-5 " >
-                    <div className="col-md-6 col-sm-12">
-                        <div className='contact-div' ><h6>My </h6><h6 style={{ marginTop: '13px', left: '10px' }} className="line-1">Contact</h6>
-                        </div>
-                        <h2 style={{ textAlign: 'start', textShadow: '2px 2px 4px #000000' }}>Contact Me</h2>
-                        <div style={{ textAlign: 'start', color: 'white' }}>
+                <div className="row p-md-5 p-sm-5 ml-5" >
+                    <div className="col-md-4 col-sm-12 p-4  bg-[#ECF0F3] w-[300px] drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">
+                        <img src="https://rainbowit.net/html/inbio/assets/images/contact/contact1.png" />
+                        <h1
+                            className="text-[20px] mt-4 font-bold mb-3"
+                        >
+                            Contact Details
+                        </h1>
+                        <div style={{ textAlign: 'start' }}>
                             If you have any suggestion, project or
                             even you want to say
                             <br />“hello”, please fill out
                             the form below and I will reply you <br />shortly.
                         </div>
-                        <h3 style={{ textAlign: 'start', marginTop: '20px', color: 'rgb(0, 123, 255)', textShadow: '1px 1px 1px  #000000' }}>Plastic Complex Industrial Area Basti</h3>
-                        <h3 style={{ textAlign: 'start', marginTop: '25px', color: 'white' }}>+916307108245</h3>
-                        <h6 style={{ textAlign: 'start', marginTop: '25px', color: 'orange', textShadow: '1px 1px 1px  #000000' }}>ranjana20@navgurukul.org</h6>
-                    </div>
-                    <div className="col-md-6 col-sm-12">
-                        <div className="row">
-                            <div className="col-md-5 col-sm-8 mr-sm-5 mr-md-5 ml-md-2">
-                                <TextField id="standard-basic" label="Name" className='input2' variant="standard" />
+                        <h3 className='mt-3 text-start'>Phone: +916307108245</h3>
+                        <h6 className='mt-1 text-start'>Email: ranjana20@navgurukul.org</h6>
+                        <div className='grid grid-cols-5 w-[300px] gap-1 mt-8 '>
+                            <div className='bg-[#f6f6f6] hover:scale-110 hover:text-[white] hover:bg-blue-500 hh-[45px] w-[40px] p-2   rounded-md bg-[#ECF0F3]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] '>
+                                <a className='hover:text-white hover:scale-120' href='https://www.linkedin.com/in/ranjana-chaudhary-2bb393211/' target='_blank'>
+                                    <LinkedIn />
+                                </a>
                             </div>
-                            <div className="col-md-4 mr-md-2 col-sm-8 mr-sm-5">
-                                <TextField id="standard-basic" label="Email" className=' input2' variant="standard" />
+                            <div className=' h-[45px] w-[40px] hover:scale-110 hover:text-[white] hover:bg-blue-500  p-2 rounded-md bg-[#ECF0F3]  bg-[#f6f6f6] drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] '>
+                                <a className='hover:text-white' href='https://github.com/ranjana980' target="_blank"><GitHub /></a>
                             </div>
-                            <div className='col-md-10 col-sm-8 mr-md-4'>
-                                <TextField id="standard-basic" label="Subject" className='input input2' variant="standard" />
+                            <div className='bg-[#f6f6f6] hh-[45px] hover:scale-110 hover:text-[white] hover:bg-blue-500  w-[40px] p-2 rounded-md bg-[#ECF0F3]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] '>
+                                <a className='hover:text-white hover:scale-120'
+                                    href="https://twitter.com/RanjanaChoudary?t=A7OancGyt0WnrZBOVxrG_w&s=09"
+                                    target="_blank"
+                                >
+                                    <Twitter />
+                                </a>
                             </div>
-                            <div className='col-md-12 col-sm-8  '>
-                                <p className="ml-md-5 mt-md-5 mt-sm-4" style={{ textAlign: 'start', }}>Message</p>
-                                <TextareaAutosize className="mr-md-3 mt-md-2 mt-sm-1 input1" id="standard-basic" label="Message" minRows={3} variant="standard" />
+                            <div className='bg-[#f6f6f6] hh-[45px] hover:scale-110 hover:text-[white] hover:bg-blue-500  w-[40px] p-2 rounded-md bg-[#ECF0F3]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] '>
+                                <a className='hover:text-white hover:scale-120' href="https://www.instagram.com/ranjanachaudhary_123/" target="_blank"><Instagram /></a>
                             </div>
-                            <div className='col-md-6 col-sm-8'><div className='d-flex Resume mr-5' >
-                                <h5>Send Message</h5>  <MailOutlineIcon style={{ color: 'white', marginLeft: '7px', marginTop: '10px' }} />
-                            </div></div>
+                            <div className='bg-[#f6f6f6] hh-[45px] hover:scale-110 hover:text-[white] hover:bg-blue-500  w-[40px] p-2 rounded-md bg-[#ECF0F3]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] '>
+                                <a className='hover:text-white hover:scale-120' href="https://www.facebook.com/Ranjana24081996?mibextid=ZbWKwL" target="_blank"><Facebook /></a>
+                            </div>
                         </div>
+                    </div>
+                    <div className="col-md-6 col-sm-12 ml-36 p-4  bg-[#ECF0F3] w-[300px] drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">
+                        <div className="flex justify-content-between">
+                            <div >
+                                <label>Your Name</label>
+                                <div> <input className='border-solid w-[321px] rounded-[4px] p-2 border-[1px] border-gray-300 ' /></div>
+                            </div>
+                            <div >
+                                <label>Phone Number</label>
+                                <div> <input className='border-solid w-[321px] rounded-[4px] p-2 border-[1px] border-gray-300 ' /></div>
+                            </div>
+                           
+                        </div>
+                        <div className="flex justify-content-between mt-3">
+                            <div >
+                                <label>Email</label>
+                                <div> <input className='border-solid w-[655px] rounded-[4px] p-2 border-[1px] border-gray-300 ' /></div>
+                            </div>
+                        </div>
+                        <div className="flex justify-content-between mt-3">
+                            <div >
+                                <label>Subject</label>
+                                <div> <input className='border-solid w-[655px] rounded-[4px] p-2 border-[1px] border-gray-300 ' /></div>
+                            </div>
+                        </div>
+                        <div className="flex justify-content-between mt-3">
+                            <div >
+                                <label>Your Message</label>
+                                <div> <textarea rows={6}  className='border-solid w-[655px] rounded-[4px] p-2 border-[1px] border-gray-300 ' /></div>
+                            </div>
+                        </div>
+                        <button className='bg-[#ECF0F3] w-100 drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] w-[200px] p-2 mt-3 rounded-[4px] hover:bg-blue-500 hover:text-white hover:scale-15'>Send Message <ArrowForward/></button>
                     </div>
                 </div>
                 <Footer />

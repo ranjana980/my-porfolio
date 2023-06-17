@@ -22,8 +22,8 @@ function App() {
     <div className="">
       <Navbar getHome={ref} getPortFolio={ref1} getContact={ref4} getAbout={ref2} getBlog={ref3} />
       <div ref={ref}><Home /></div>
-      <div ref={ref2}><About /></div>
       <div ref={ref1}><Resume /></div>
+      <div ref={ref2}><About /></div>
       <div ref={ref4}><Contact /></div>
      
     </div>
