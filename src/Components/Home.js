@@ -4,12 +4,12 @@ import { LinkedIn, GitHub, Instagram, Facebook, Twitter } from '@material-ui/ico
 export default function Home() {
     return (
         <div className="Home ">
-            <div className='row pl-24 mt-36'>
-                <div className=' col-xs-6 col-sm-6 col-md-5  ml-5   '>
-                    <div className='w-[390px] mt-5'>
-                        <h1>WELCOME TO MY PROFILE</h1><h1 className='text-[30px] mt-4'> Hi, I’m Ranjana
-                            <h1 className="mt-4 text-[40px] flex">a <h1 className="line-1 mt-4 text-[40px] ml-2"> Software Developer.</h1></h1> </h1>
-                        <div className='About-me mt-2 w-[600px] ' style={{ textAlign: 'start', position: 'relative', }}>
+            <div className='row xl:pl-15 xs:pl-[5px] xl:mt-36 xs:mt-[119px]'>
+                <div className=' col-xs-6 col-sm-6 col-md-5  ml-5  '>
+                    <div className='xl:w-[410px] xs:w-[300px] mt-5'>
+                        <h1>WELCOME TO MY PROFILE</h1><h1 className='text-[30px] xl:mt-4 xs:mt-2'> Hi, I’m Ranjana
+                            <h1 className="xl:mt-4 xs:mt-2 xl:text-[40px] xs:text-[30px] flex">a <h1 className="mt-4 line-1 xl:text-[40px] xs:text-[30px] ml-2 font-semibold"> Software Developer.</h1></h1> </h1>
+                        <div className=' mt-2  xl:text-[17px] xs:text-[25px] xl:mr-[10px] xs:mr-[30px] w-[600px] relative text-start' >
                             <span> I'm a experience frontend developer with over 1 years of experience in software industry</span>
                             <span> excellent problem solving skills. I've  MERN Stack skills </span>
                             <span> also to help you to build your personal website with seamless customization. I've</span>
@@ -37,12 +37,12 @@ export default function Home() {
                     </div>
                 </div>
                 <div className=' col-xs-12 col-sm-12 col-md-5  ml-5'>
-                    <div className="br   p-4 h-[450px] bg-[#ECF0F3]  drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)]   w-[550px]  ">
+                    <div className="br   xl:p-4 bg-[#ECF0F3]  drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] xl:h-[450px]   xl:w-[550px] xs:h-[400px] xs:hidden xs:mt-5 xl:block">
                         <img src={"https://deerwalkcompware.com/training/uploads/courses/MernStack1.png"}
-                            className="rounded-full h-[50px] w-[50px] border-solid border-[3px] border-blue-500  " />
+                            className=" xl:h-[420px] xl:w-[520px] border-solid border-[3px] border-blue-500 xs:h-[200px] xs:w-[200px] " />
                     </div>
-                    <div className='grid grid-cols-5 w-[370px] gap-1 mt-8 ml-5'>
-                        <div className='bg-[#f6f6f6] hover:scale-110 hover:text-[white] hover:bg-blue-500 hh-[45px] w-[40px] p-2   rounded-md bg-[#ECF0F3]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] '>
+                    <div className='grid grid-cols-5 w-[370px] gap-1 mt-8 xl:ml-5 xs:ml-1'>
+                        <div className='bg-[#f6f6f6] hover:scale-110 hover:text-[white] hover:bg-blue-500 h-[45px] w-[40px] p-2   rounded-md bg-[#ECF0F3]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] '>
                             <a className='hover:text-white hover:scale-120' href='https://www.linkedin.com/in/ranjana-chaudhary-2bb393211/' target='_blank'>
                                 <LinkedIn />
                             </a>
