@@ -36,10 +36,10 @@ export default function Contact() {
     // )
 
     return (
-        <div>
-            <div className="Contact">
-                <div className="row p-md-5 p-sm-5 ml-5" >
-                    <div className="col-md-4 col-sm-12 p-4  bg-[#ECF0F3] w-[300px] drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">
+       
+            < >
+                <div className="xl:flex xl:ml-[70px] w-[100%] xs:ml-[40px]" >
+                    <div className="xl:w-[400px] mt-5 xs:w-[480px]  p-4  bg-[#ECF0F3] drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">
                         <img src="https://rainbowit.net/html/inbio/assets/images/contact/contact1.png" />
                         <h1
                             className="text-[20px] mt-4 font-bold mb-3"
@@ -79,44 +79,40 @@ export default function Contact() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-sm-12 ml-36 p-4  bg-[#ECF0F3] w-[300px] drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">
-                        <div className="flex justify-content-between">
+                    <div className="xl:w-[45%] xs:w-[480px]  xl:ml-44 xs:ml-[0px] p-4 mt-5  bg-[#ECF0F3]  drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">
+                        <div className="xl:flex  gap-[10px]">
                             <div >
                                 <label>Your Name</label>
-                                <div> <input className='border-solid w-[321px] rounded-[4px] p-2 border-[1px] border-gray-300 ' /></div>
+                                <div> <input className='border-solid rounded-[4px] xl:w-[300px] xs:w-[430px] p-2 border-[1px] border-gray-300 ' /></div>
                             </div>
                             <div >
                                 <label>Phone Number</label>
-                                <div> <input className='border-solid w-[321px] rounded-[4px] p-2 border-[1px] border-gray-300 ' /></div>
+                                <div> <input className='border-solid rounded-[4px] xl:w-[300px] xs:w-[430px] p-2 border-[1px] border-gray-300 ' /></div>
                             </div>
                            
                         </div>
-                        <div className="flex justify-content-between mt-3">
+                        <div className="flex gap-[10px] mt-3">
                             <div >
                                 <label>Email</label>
-                                <div> <input className='border-solid w-[655px] rounded-[4px] p-2 border-[1px] border-gray-300 ' /></div>
+                                <div> <input className='border-solid rounded-[4px] xl:w-[610px] xs:w-[430px] p-2 border-[1px] border-gray-300 ' /></div>
                             </div>
                         </div>
-                        <div className="flex justify-content-between mt-3">
+                        <div className="flex gap-[10px] mt-3">
                             <div >
                                 <label>Subject</label>
-                                <div> <input className='border-solid w-[655px] rounded-[4px] p-2 border-[1px] border-gray-300 ' /></div>
+                                <div> <input className='border-solid xl:w-[610px] rounded-[4px] xs:w-[430px] p-2 border-[1px] border-gray-300 ' /></div>
                             </div>
                         </div>
-                        <div className="flex justify-content-between mt-3">
+                        <div className="flex gap-[10px] mt-3">
                             <div >
                                 <label>Your Message</label>
-                                <div> <textarea rows={6}  className='border-solid w-[655px] rounded-[4px] p-2 border-[1px] border-gray-300 ' /></div>
+                                <div> <textarea rows={6}  className='xs:w-[430px] xl:w-[610px] border-solid rounded-[4px] p-2 border-[1px] border-gray-300 ' /></div>
                             </div>
                         </div>
-                        <button className='bg-[#ECF0F3] w-100 drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] w-[200px] p-2 mt-3 rounded-[4px] hover:bg-blue-500 hover:text-white hover:scale-15'>Send Message <ArrowForward/></button>
+                        <button className='bg-[#ECF0F3] xs:w-[430px]  drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] xl:w-[610px] p-2 mt-3 rounded-[4px] hover:bg-blue-500 hover:text-white hover:scale-15'>Send Message <ArrowForward/></button>
                     </div>
                 </div>
                 <Footer />
-            </div>
-
-        </div>
-
-
+            </>
     )
 }

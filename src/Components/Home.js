@@ -3,13 +3,13 @@ import { LinkedIn, GitHub, Instagram, Facebook, Twitter } from '@material-ui/ico
 
 export default function Home() {
     return (
-        <div className="Home ">
+        <div className="Home">
             <div className='row xl:pl-15 xs:pl-[5px] xl:mt-36 xs:mt-[119px]'>
                 <div className=' col-xs-6 col-sm-6 col-md-5  ml-5  '>
                     <div className='xl:w-[410px] xs:w-[300px] mt-5'>
                         <h1>WELCOME TO MY PROFILE</h1><h1 className='text-[30px] xl:mt-4 xs:mt-2'> Hi, I’m Ranjana
                             <h1 className="xl:mt-4 xs:mt-2 xl:text-[40px] xs:text-[30px] flex">a <h1 className="mt-4 line-1 xl:text-[40px] xs:text-[30px] ml-2 font-semibold"> Software Developer.</h1></h1> </h1>
-                        <div className=' mt-2  xl:text-[17px] xs:text-[25px] xl:mr-[10px] xs:mr-[30px] w-[600px] relative text-start' >
+                        <div className=' mt-2  xl:text-[17px] xs:text-[17px] xl:mr-[10px] xs:mr-[50px] xl:w-[600px] xs:w-[500px] relative text-start' >
                             <span> I'm a experience frontend developer with over 1 years of experience in software industry</span>
                             <span> excellent problem solving skills. I've  MERN Stack skills </span>
                             <span> also to help you to build your personal website with seamless customization. I've</span>
@@ -20,13 +20,13 @@ export default function Home() {
                         </div>
                         <div className='row w-100 mt-14 ml-2'>
                             <div className='flex w-100 justify-content-between '>
-                                <div className='d-flex'><h1 className='font-bold text-blue-500 text-xl'>1</h1>
+                                <div className='d-flex'><h1 className='font-bold text-blue-500 xl:text-xl xs:text-[23px]'>1</h1>
                                     <div className='mt-2'>
                                         <p  ><b>Years of</b></p>
                                         <p ><b>Experience</b></p>
                                     </div>
                                 </div>
-                                <div className='d-flex'><h1 className='font-bold text-blue-500 text-xl'>15</h1>
+                                <div className='d-flex'><h1 className='font-bold text-blue-500 xl:text-xl xs:text-[23px]'>15</h1>
                                     <div className='mt-2'>
                                         <p  ><b>Project</b></p>
                                         <p  ><b>Completed</b></p>
@@ -67,7 +67,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <hr className='mt-[70px] ml-2 mr-2' />
+            <hr className='xl:mt-[60px] xl:ml-2 xl:mr-2 xs:mt-[40px] ' />
         </div>
     )
 }

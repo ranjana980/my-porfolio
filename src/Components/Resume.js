@@ -11,23 +11,22 @@ export default function MyPortFolio() {
                 >
                     My Resume
                 </h1>
-                <div className="d-flex row">
-                    <div className="pl-20">
+                <div className="xl:flex xl:row ">
+                    <div className="xl:pl-20 xs:pl-[0px] flex">
                         <div className="mt-5 ">
-                            <div className="relative left-[24px] mt-2">
+                            <div className="relative left-[12px] mt-2">
                                 <CastForEducation
                                     sx={{
                                         fontSize: "30px",
                                     }}
                                 />
                             </div>
-                            <div className="line"></div>
-                            <div className="h-[10px] relative left-[32px] w-[10px] rounded-[50%] bg-[#ECF0F3] border-solid border-[3px] border-blue-500"></div>
+                            <div className="line "></div>
+                            <div className="h-[10px] relative left-[17px] w-[10px] rounded-[50%] bg-[#ECF0F3] border-solid border-[3px] border-blue-500"></div>
                         </div>
-                    </div>
-                    <div className="col-md-5 col-sm-12  ">
+                        <div className="mt-[55px]">
                         <h1
-                            className="text-[20px] ml-[51px] font-bold mb-3"
+                            className="text-[20px] xl:ml-[51px] xs:ml-[28px] font-bold xl:mb-3 xs:mb-1"
                         >
                             Education Quality
                         </h1>
@@ -78,14 +77,16 @@ export default function MyPortFolio() {
                             }
                         />
                     </div>
-                    <div className="col-md-5 col-sm-12 ">
+                    </div>
+                   
+                    <div className="mt-5">
                     <h1
-                            className="text-[20px] ml-[151px] font-bold mb-3"
+                            className="text-[20px] xl:ml-[273px] xs:ml-[48px] font-bold xl:mb-3 xs:mb-1"
                         >
                            Job Experience
                         </h1>
                         <div className="flex">
-                            <div className="pl-20">
+                            <div className="xl:pl-[204px] xs:pl-[0px]">
                                 <div className=" ">
                                     <div className="relative left-[15px] mt-2">
                                         <Work
@@ -113,39 +114,34 @@ export default function MyPortFolio() {
                         </div>
                     </div>
                 </div>
+              
                 <h1
-                    className="mt-5 text-center text-[30px] font-bold"
+                    className="mt-5 xl:text-center xs:ml-[20px] text-[30px] font-bold"
                 >
                    Professional Skills
                 </h1>
-                <div className="pre-div  mt-3 ml-[60px]">
-                    <div className="row">
+                <div className="xl:ml-[150px] xl:flex xl:w-[80%] xs:w-[100%]  justify-content-between mt-3  xs:ml-[25px]">
+                    <div className="xl:w-[30%]">
                         <Skills skill={"Python"} percent={70} />
                         <Skills skill={"JavaScript"} percent={70} />
                         <Skills skill={"Html && Css"} percent={70} />
+                        <Skills skill={"Express js"} percent={40} />
+                        <Skills skill={"Node js"} percent={50} />
+                        <Skills skill={"Canvas"} percent={70} />
                     </div>
-                    <div className="row ">
+                    <div className="xl:w-[30%]">
                         <Skills skill={"Material Ui"} percent={70} />
                         <Skills skill={"Bootstrap"} percent={70} />
                         <Skills skill={"React"} percent={80} />
+                        <Skills skill={"Github"} percent={70} />
+                        <Skills skill={"Mongodb Database"} percent={50} />
                     </div>
-                    <div className="row ">
+                    <div className="xl:w-[30%]">
                         <Skills skill={"Redux"} percent={70} />
                         <Skills skill={"NextJs"} percent={80} />
                         <Skills skill={"Agora Web Rtc"} percent={70} />
-                    </div>
-                    <div className="row ">
-                        <Skills skill={"Express js"} percent={40} />
-                        <Skills skill={"Mongodb Database"} percent={50} />
-                        <Skills skill={"Node js"} percent={50} />
-                    </div>
-                    <div className="row ">
                         <Skills skill={"Socket.io"} percent={50} />
                         <Skills skill={"Firebase"} percent={50} />
-                        <Skills skill={"Github"} percent={70} />
-                    </div>
-                    <div className="row ">
-                        <Skills skill={"Canvas"} percent={70} />
                     </div>
                 </div>
             </div>

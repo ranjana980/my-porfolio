@@ -3,10 +3,10 @@ import { Drawer } from "@mui/material";
 import profile from './profile.jpg'
 import { Menu, Close } from '@material-ui/icons';
 export default function Navbar(props) {
-    const [display, setDisplay] = useState("none")
     const [isOpen, setIsOpen] = useState(false)
 
     const handleClick = (type) => {
+        setIsOpen(false)
         if (type == 'Home') {
             props.getHome.current?.scrollIntoView({ behavior: 'smooth' });
         }
@@ -64,7 +64,7 @@ export default function Navbar(props) {
                                 <Close style={{ fontSize: '55px', marginLeft: '10px', marginTop: '6px', color: 'rgb(59 130 246)' }} />
                             </div>
                         </div>
-                        <span className="text-[30px] font-bold xl:mt-[400px] xs:mt-[300px]">Portfolio</span>
+                        <span className="text-[30px] font-bold xl:mt-[400px] xs:relative xs:top-[20px]">Portfolio</span>
                     </div>
                     <li className="nav-item mt-[100px]  cursor-pointer">
                         <a onClick={() => handleClick('Home')}>HOME </a>

@@ -15,42 +15,39 @@ export default function About() {
     };
     return (
         <>
-            <div className="About">
-                <div >
+            <div>
+                <h1
+                    className="mt-3 text-center text-xl font-bold"
+                >
+                    My Projects
+                </h1>
+                <div className="xl:grid  gap-3 grid-cols-3 mt-4  xl:pl-16 xs:pl-12 xl:pr-16 ">
+                    <ProjectCard
+                        url={"https://e-learning-sand.vercel.app/"}
+                        img={ELearning}
+                        title={"E-Learning"}
+                    />
+                    <ProjectCard
+                        url={"https://react-food-recipe-finder.vercel.app/"}
+                        img={recipe}
+                        title={"Food Recipe Finder"}
+                    />
+                    <ProjectCard
+                        url={"https://figma-design-l4vx.vercel.app/"}
+                        img={figma}
+                        title={"Figma Design"}
+                    />
+                </div>
+                <div className="xl:grid  gap-3 grid-cols-3 mt-4  xl:pl-16 xs:pl-12 xl:pr-16 ">
+                    <ProjectCard
+                        url={"https://pokemon-git-master-ranjana980.vercel.app/"}
+                        img={pokemon}
+                        title={"Pokemon"}
+                    />
+                </div>
 
-                    <h1
-                        className="mt-3 text-center text-xl font-bold"
-                    >
-                        My Projects
-                    </h1>
-                    <div className="grid  gap-3 grid-cols-3 mt-4  pl-16 pr-16 ">
-                        <ProjectCard
-                            url={"https://e-learning-sand.vercel.app/"}
-                            img={ELearning}
-                            title={"E-Learning"}
-                        />
-                        <ProjectCard
-                            url={"https://react-food-recipe-finder.vercel.app/"}
-                            img={recipe}
-                            title={"Food Recipe Finder"}
-                        />
-                        <ProjectCard
-                            url={"https://figma-design-l4vx.vercel.app/"}
-                            img={figma}
-                            title={"Figma Design"}
-                        />
-                    </div>
-                    <div className="grid  gap-3 grid-cols-3 mt-4  pl-16 pr-16 ">
-                        <ProjectCard
-                            url={"https://pokemon-git-master-ranjana980.vercel.app/"}
-                            img={pokemon}
-                            title={"Pokemon"}
-                        />
-                    </div>
-
-                </div >
-            </div>
-
-            <hr className='ml-2 mr-2' /></>
+            </div >
+            <hr className='ml-2 mr-2 mt-5' />
+        </>
     )
 }

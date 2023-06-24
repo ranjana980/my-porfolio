@@ -1,7 +1,7 @@
 import { LinearProgress } from "@mui/material";
 export default function Skills({ skill, percent }) {
   return (
-    <div className="col-md-4  col-sm-5 col-sx-3 ">
+    <div className=" ">
       <div
         className="d-flex"
         style={{ justifyContent: "space-between", }}
