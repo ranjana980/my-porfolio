@@ -11,7 +11,7 @@ export default function MyPortFolio() {
                 >
                     My Resume
                 </h1>
-                <div className="xl:flex xl:row ">
+                <div className="xl:flex xl:row lg:row lg:flex ">
                     <div className="xl:pl-20 xs:pl-[0px] flex">
                         <div className="mt-5 ">
                             <div className="relative left-[12px] mt-2">
@@ -120,8 +120,8 @@ export default function MyPortFolio() {
                 >
                    Professional Skills
                 </h1>
-                <div className="xl:ml-[150px] xl:flex xl:w-[80%] xs:w-[100%]  justify-content-between mt-3  xs:ml-[25px]">
-                    <div className="xl:w-[30%]">
+                <div className="xl:ml-[150px] xl:flex lg:flex lg:w-[90%] xl:w-[80%] xs:w-[100%]  justify-content-between mt-3  xs:ml-[25px]">
+                    <div className="xl:w-[30%] lg:w-[30%]">
                         <Skills skill={"Python"} percent={70} />
                         <Skills skill={"JavaScript"} percent={70} />
                         <Skills skill={"Html && Css"} percent={70} />
@@ -129,14 +129,14 @@ export default function MyPortFolio() {
                         <Skills skill={"Node js"} percent={50} />
                         <Skills skill={"Canvas"} percent={70} />
                     </div>
-                    <div className="xl:w-[30%]">
+                    <div className="xl:w-[30%] lg:w-[30%]">
                         <Skills skill={"Material Ui"} percent={70} />
                         <Skills skill={"Bootstrap"} percent={70} />
                         <Skills skill={"React"} percent={80} />
                         <Skills skill={"Github"} percent={70} />
                         <Skills skill={"Mongodb Database"} percent={50} />
                     </div>
-                    <div className="xl:w-[30%]">
+                    <div className="xl:w-[30%] lg:w-[30%]">
                         <Skills skill={"Redux"} percent={70} />
                         <Skills skill={"NextJs"} percent={80} />
                         <Skills skill={"Agora Web Rtc"} percent={70} />

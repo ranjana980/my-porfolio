@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <div className="Home">
             <div className='row xl:pl-15 xs:pl-[5px] xl:mt-36 xs:mt-[119px]'>
-                <div className=' col-xs-6 col-sm-6 col-md-5  ml-5  '>
+                <div className=' col-xs-6 col-sm-6 col-md-5  xl:ml-5  lg:ml-4 xs:ml-4 '>
                     <div className='xl:w-[410px] xs:w-[300px] mt-5'>
                         <h1>WELCOME TO MY PROFILE</h1><h1 className='text-[30px] xl:mt-4 xs:mt-2'> Hi, I’m Ranjana
                             <h1 className="xl:mt-4 xs:mt-2 xl:text-[40px] xs:text-[30px] flex">a <h1 className="mt-4 line-1 xl:text-[40px] xs:text-[30px] ml-2 font-semibold"> Software Developer.</h1></h1> </h1>
@@ -37,9 +37,9 @@ export default function Home() {
                     </div>
                 </div>
                 <div className=' col-xs-12 col-sm-12 col-md-5  ml-5'>
-                    <div className="br   xl:p-4 bg-[#ECF0F3]  drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] xl:h-[450px]   xl:w-[550px] xs:h-[400px] xs:hidden xs:mt-5 xl:block">
+                    <div className="br   xl:p-4 lg:p-4 bg-[#ECF0F3]  drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] xl:h-[450px]   xl:w-[550px] lg:h-[400px]   lg:w-[500px] xs:h-[400px] xs:hidden xs:mt-5 xl:block lg:block">
                         <img src={"https://deerwalkcompware.com/training/uploads/courses/MernStack1.png"}
-                            className=" xl:h-[420px] xl:w-[520px] border-solid border-[3px] border-blue-500 xs:h-[200px] xs:w-[200px] " />
+                            className=" xl:h-[420px] xl:w-[520px] lg:h-[360px] lg:w-[500px] border-solid border-[3px] border-blue-500 xs:h-[200px] xs:w-[200px] " />
                     </div>
                     <div className='grid grid-cols-5 w-[370px] gap-1 mt-8 xl:ml-5 xs:ml-1'>
                         <div className='bg-[#f6f6f6] hover:scale-110 hover:text-[white] hover:bg-blue-500 h-[45px] w-[40px] p-2   rounded-md bg-[#ECF0F3]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] '>

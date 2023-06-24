@@ -24,16 +24,15 @@ export default function Navbar(props) {
         }
     };
     return (
-
         <div className="flex justify-content-between w-100 fixed bg-[#ECF0F3] top-[0px] z-[99]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.10)]">
             <div className="flex p-2">
                 <img src={profile} className="rounded-full xl:h-[50px] xl:w-[50px] xs:h-[75px] xs:w-[75px] border-solid border-[3px] border-blue-500  xl:ml-5  xs:ml-[0px] " />
-                <div className=" d-flex ml-2 xl:mt-2 xs:mt-3 "><span className="xl:text-[20px] xs:text-[30px] font-bold ">Portfolio</span></div>
+                <div className=" d-flex ml-2 xl:mt-2 lg:mt-2 xs:mt-3 "><span className="xl:text-[20px] xs:text-[30px] font-bold ">Portfolio</span></div>
             </div>
-            <div className="xl:hidden xs:block xl:text-[10px] xs:text-[40px] ">
+            <div className="xl:hidden lg:hidden xs:block xl:text-[10px] lg:text-[10px] xs:text-[40px] ">
                 <Menu className=" mr-[20px] " style={{ fontSize: '50px' }} onClick={() => setIsOpen(true)} />
             </div>
-            <div className="xs:hidden xl:block">
+            <div className="xs:hidden lg:block xl:block">
                 <ul className="flex  mr-5 font-bold p-2">
                     <li className="nav-item  cursor-pointer">
                         <a className="nav-link" onClick={() => handleClick('Home')}>Home </a>

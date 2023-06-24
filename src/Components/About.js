@@ -21,7 +21,7 @@ export default function About() {
                 >
                     My Projects
                 </h1>
-                <div className="xl:grid  gap-3 grid-cols-3 mt-4  xl:pl-16 xs:pl-12 xl:pr-16 ">
+                <div className="xl:grid lg:grid gap-3 xl:grid-cols-3 lg:grid-cols-2 mt-4  xl:pl-16 lg:pl-8 xs:pl-12 xl:pr-16 lg:pr-16 ">
                     <ProjectCard
                         url={"https://e-learning-sand.vercel.app/"}
                         img={ELearning}
@@ -37,15 +37,12 @@ export default function About() {
                         img={figma}
                         title={"Figma Design"}
                     />
-                </div>
-                <div className="xl:grid  gap-3 grid-cols-3 mt-4  xl:pl-16 xs:pl-12 xl:pr-16 ">
-                    <ProjectCard
+                     <ProjectCard
                         url={"https://pokemon-git-master-ranjana980.vercel.app/"}
                         img={pokemon}
                         title={"Pokemon"}
                     />
                 </div>
-
             </div >
             <hr className='ml-2 mr-2 mt-5' />
         </>
