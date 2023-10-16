@@ -1,5 +1,5 @@
 import { Work, CastForEducation } from "@material-ui/icons";
-import Qualification from "./../common/qualification-wrapper";
+import Qualification from "../common/qualification-wrapper";
 import Skills from "./skills";
 import { experienceObjArr, qualificationObjArr } from "../utils/constant";
 
