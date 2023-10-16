@@ -1,18 +1,13 @@
-import recipe from "../recipe.png";
-import figma from "../figma-design.png";
-import pokemon from "../Pokemon.png";
-import ELearning from '../E-Learning.png'
+import React from 'react';
+
+import recipe from "../assests/images/recipe.png";
+import figma from "../assests/images/figma-design.png";
+import pokemon from "../assests/images/Pokemon.png";
+import ELearning from '../assests/images/E-Learning.png'
 import ProjectCard from "./project-card";
-import cat from '../lotties/89042-girl.json'
+
 export default function About() {
-    const defaultOptions = {
-        loop: true,
-        autoplay: true,
-        animationData: cat,
-        rendererSettings: {
-            preserveAspectRatio: "xMidYMid slice"
-        }
-    };
+   
     return (
         <>
             <div>
@@ -23,24 +18,24 @@ export default function About() {
                 </h1>
                 <div className="xl:grid lg:grid gap-3 xl:grid-cols-3 lg:grid-cols-2 mt-4  xl:pl-16 lg:pl-8 xs:pl-12 xl:pr-16 lg:pr-16 ">
                     <ProjectCard
-                        url={"https://e-learning-sand.vercel.app/"}
+                        url="https://e-learning-sand.vercel.app/"
                         img={ELearning}
-                        title={"E-Learning"}
+                        title="E-Learning"
                     />
                     <ProjectCard
-                        url={"https://react-food-recipe-finder.vercel.app/"}
+                        url="https://react-food-recipe-finder.vercel.app/"
                         img={recipe}
-                        title={"Food Recipe Finder"}
+                        title="Food Recipe Finder"
                     />
                     <ProjectCard
-                        url={"https://figma-design-l4vx.vercel.app/"}
+                        url="https://figma-design-l4vx.vercel.app/"
                         img={figma}
-                        title={"Figma Design"}
+                        title="Figma Design"
                     />
                      <ProjectCard
-                        url={"https://pokemon-git-master-ranjana980.vercel.app/"}
+                        url="https://pokemon-git-master-ranjana980.vercel.app/"
                         img={pokemon}
-                        title={"Pokemon"}
+                        title="Pokemon"
                     />
                 </div>
             </div >

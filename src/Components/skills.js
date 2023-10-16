@@ -1,4 +1,6 @@
+import React from 'react';
 import { LinearProgress } from "@mui/material";
+
 export default function Skills({ skill, percent }) {
   return (
     <div className=" ">

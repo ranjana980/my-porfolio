@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function ProjectCard(props) {
     const { img, title, url } = props;
     return (

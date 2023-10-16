@@ -1,11 +1,12 @@
 
-import './App.css';
+
+
+import React,{ useRef } from 'react'; 
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 
-import { useRef } from 'react';
 import About from './Components/About';
 
 function App() {
