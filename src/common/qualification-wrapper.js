@@ -18,7 +18,6 @@ export default function Qualification({ year, title, explaination }) {
                                 <h6 className="text-[10px] font-bold mt-1">({year})</h6>
                             </div>
                             <hr className="mt-4" />
-
                             {explaination}
                         </div>
                     </div>

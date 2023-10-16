@@ -1,32 +1,35 @@
 import { useState } from "react";
 import { Drawer } from "@mui/material";
-import profile from './profile.jpg'
+import profile from './../assests/images/profile.jpg'
 import { Menu, Close } from '@material-ui/icons';
-export default function Navbar(props) {
+
+export default function Navbar({home,portFolio,about,blog,contact}) {
     const [isOpen, setIsOpen] = useState(false)
 
     const handleClick = (type) => {
         setIsOpen(false)
-        if (type == 'Home') {
-            props.getHome.current?.scrollIntoView({ behavior: 'smooth' });
-        }
-        else if (type == "Portfolio") {
-            props.getPortFolio.current?.scrollIntoView({ behavior: 'smooth' });
-        }
-        else if (type == "About") {
-            props.getAbout.current?.scrollIntoView({ behavior: 'smooth' });
-        }
-        else if (type == "Blog") {
-            props.getBlog.current?.scrollIntoView({ behavior: 'smooth' });
-        }
-        else if (type == "Contact") {
-            props.getContact.current?.scrollIntoView({ behavior: 'smooth' });
-        }
+        type.current?.scrollIntoView({ behavior: 'smooth' });
+        // if (type == 'Home') {
+        //     home.current?.scrollIntoView({ behavior: 'smooth' });
+        // }
+        // else if (type == "Portfolio") {
+        //     portFolio.current?.scrollIntoView({ behavior: 'smooth' });
+        // }
+        // else if (type == "About") {
+        //     about.current?.scrollIntoView({ behavior: 'smooth' });
+        // }
+        // else if (type == "Blog") {
+        //     blog.current?.scrollIntoView({ behavior: 'smooth' });
+        // }
+        // else if (type == "Contact") {
+        //     contact.current?.scrollIntoView({ behavior: 'smooth' });
+        // }
     };
+
     return (
-        <div className="flex justify-content-between w-100 fixed bg-[#ECF0F3] top-[0px] z-[99]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.10)]">
+        <div className="flex justify-content-between w-100 fixed bg-[#ECF0F3] top-[0px] z-[99]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.10)] xl:pl-10  xs:pl-[0px]">
             <div className="flex p-2">
-                <img src={profile} className="rounded-full xl:h-[50px] xl:w-[50px] xs:h-[75px] xs:w-[75px] border-solid border-[3px] border-blue-500  xl:ml-5  xs:ml-[0px] " />
+                <img src={profile} className="rounded-full xl:h-[50px] xl:w-[50px] xs:h-[75px] xs:w-[75px] border-solid border-[3px] border-blue-500   " />
                 <div className=" d-flex ml-2 xl:mt-2 lg:mt-2 xs:mt-3 "><span className="xl:text-[20px] xs:text-[30px] font-bold ">Portfolio</span></div>
             </div>
             <div className="xl:hidden lg:hidden xs:block xl:text-[10px] lg:text-[10px] xs:text-[40px] ">
@@ -35,16 +38,16 @@ export default function Navbar(props) {
             <div className="xs:hidden lg:block xl:block">
                 <ul className="flex  mr-5 font-bold p-2">
                     <li className="nav-item  cursor-pointer">
-                        <a className="nav-link" onClick={() => handleClick('Home')}>Home </a>
+                        <a className="nav-link" onClick={() => handleClick('home')}>Home </a>
                     </li>
                     <li className="nav-item  cursor-pointer">
-                        <a className="nav-link" onClick={() => handleClick('Portfolio')}>Resume</a>
+                        <a className="nav-link" onClick={() => handleClick('portfolio')}>Resume</a>
                     </li>
                     <li className="nav-item  cursor-pointer">
-                        <a className="nav-link" onClick={() => handleClick('About')}>Projects</a>
+                        <a className="nav-link" onClick={() => handleClick('about')}>Projects</a>
                     </li>
                     <li className="nav-item  cursor-pointer ">
-                        <a className="nav-link" onClick={() => handleClick('Contact')}>Contact</a>
+                        <a className="nav-link" onClick={() => handleClick('contact')}>Contact</a>
                     </li>
                 </ul>
             </div>

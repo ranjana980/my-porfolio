@@ -1,12 +1,12 @@
 
 import './App.css';
-import Navbar from './Components/Navbar';
-import Home from './Components/Home';
-import Resume from './Components/Resume';
-import Contact from './Components/Contact';
-
+import Navbar from './components/navbar';
 import { useRef } from 'react';
-import About from './Components/About';
+import Projects from './components/projects';
+import Home from './components/home'
+import Resume from './components/resume';
+import Contact from './components/contact'
+
 
 function App() {
   const ref = useRef(null);
@@ -19,10 +19,10 @@ function App() {
 
   return (
     <>
-      <Navbar getHome={ref} getPortFolio={ref1} getContact={ref4} getAbout={ref2} getBlog={ref3} />
-      <div ref={ref}><Home /></div>
+      <Navbar home={ref} portFolio={ref1} contact={ref4} about={ref2} blog={ref3} />
+      <div ref={ref}><Home/></div>
       <div ref={ref1}><Resume /></div>
-      <div ref={ref2}><About /></div>
+      <div ref={ref2}><Projects /></div>
       <div ref={ref4}><Contact /></div>
     </>
   );

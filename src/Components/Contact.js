@@ -1,4 +1,4 @@
-import Footer from './Footer';
+import Footer from './footer';
 import { TextField, TextareaAutosize } from '@material-ui/core'
 import { LinkedIn, GitHub, Instagram, Facebook, Twitter, ArrowForward } from '@material-ui/icons';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
@@ -38,9 +38,9 @@ export default function Contact() {
     return (
        
             < >
-                <div className="xl:flex lg:flex xl:ml-[70px] lg:ml-[30px] w-[100%] xs:ml-[40px]" >
-                    <div className="xl:w-[400px] mt-5 xs:w-[480px]  p-4  bg-[#ECF0F3] drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">
-                        <img src="https://rainbowit.net/html/inbio/assets/images/contact/contact1.png" />
+                <div className="xl:flex lg:flex w-100 xl:pl-10 lg:pl-10  xs:pl-0 xl:pr-10 lg:pr-10  xs:pr-0 justify-content-between" >
+                    <div className="xl:w-[40%] mt-5 xs:w-[480px]  p-4  bg-[#ECF0F3] drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">
+                        <img src="https://rainbowit.net/html/inbio/assets/images/contact/contact1.png" className='w-[700px]'/>
                         <h1
                             className="text-[20px] mt-4 font-bold mb-3"
                         >
@@ -79,7 +79,7 @@ export default function Contact() {
                             </div>
                         </div>
                     </div>
-                    <div className="xl:w-[45%] xs:w-[480px]  xl:ml-44 lg:ml-[20px] xs:ml-[0px] p-4 mt-5  bg-[#ECF0F3]  drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">
+                    <div className="xl:w-[45%] xs:w-[480px]    p-4 mt-5  bg-[#ECF0F3]  drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">
                         <div className="xl:flex  gap-[10px]">
                             <div >
                                 <label>Your Name</label>
