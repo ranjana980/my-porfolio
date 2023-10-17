@@ -50,7 +50,7 @@ export default function Navbar({ home, portFolio, about, blog, contact }) {
             </a>
           </li>
           <li className="nav-item  cursor-pointer">
-            <a className="nav-link" onClick={() => handleClick("portfolio")}>
+            <a className="nav-link" onClick={() => handleClick("portFolio")}>
               Resume
             </a>
           </li>

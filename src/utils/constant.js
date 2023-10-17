@@ -2,6 +2,15 @@ import ELearning from "../assests/images/e-learning.png";
 import Recipe from "../assests/images/recipe.png";
 import Figma from "../assests/images/figma-design.png";
 import Pokemon from "../assests/images/pokemon.png";
+import {
+  LinkedIn,
+  GitHub,
+  Instagram,
+  Facebook,
+  Twitter,
+} from "@material-ui/icons";
+import * as Yup from "yup";
+import { phoneRegex } from "./regex-helper";
 
 const projectObjArr = [
   {
@@ -81,4 +90,52 @@ const experienceObjArr = [
          I used css frameworks like tailwind and ant-design  `,
   },
 ];
-export { projectObjArr, qualificationObjArr, experienceObjArr };
+
+const socialMediaObjArr = [
+  {
+    link: "https://www.instagram.com/ranjanachaudhary_123/",
+    icon: <Instagram />,
+  },
+  {
+    link: "https://www.facebook.com/Ranjana24081996?mibextid=ZbWKwL",
+    icon: <Facebook />,
+  },
+  {
+    link: "https://www.linkedin.com/in/ranjana-chaudhary-2bb393211/",
+    icon: <LinkedIn />,
+  },
+  {
+    link: "https://twitter.com/RanjanaChoudary?t=A7OancGyt0WnrZBOVxrG_w&s=09",
+    icon: <Twitter />,
+  },
+  { link: "https://github.com/ranjana980", icon: <GitHub /> },
+];
+
+const initialValues = {
+  name: "",
+  phone: "",
+  email: "",
+  subject: "",
+  message: "",
+};
+
+const validationSchema = Yup.object().shape({
+  name: Yup.string().required("Name is required!").test('no-whitespace', 'Invalid name!', (value) => !/\s/.test(value)),
+  phone: Yup.string()
+    .matches(phoneRegex, 'Invalid contact number!')
+    .required('Phone number is required!'),
+  email: Yup.string()
+    .email('Invalid email address!')
+    .required('Email is required!'),
+  subject: Yup.string().required("Subject is required!").test('no-whitespace', 'Invalid subject!', (value) => !/\s/.test(value)),
+  message: Yup.string().required("Message is required!").test('no-whitespace', 'Invalid message!', (value) => !/\s/.test(value)),
+});
+
+export {
+  projectObjArr,
+  qualificationObjArr,
+  experienceObjArr,
+  socialMediaObjArr,
+  initialValues,
+  validationSchema,
+};

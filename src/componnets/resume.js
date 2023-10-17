@@ -2,6 +2,7 @@ import { Work, CastForEducation } from "@material-ui/icons";
 import Qualification from "../common/qualification-wrapper";
 import Skills from "./skills";
 import { experienceObjArr, qualificationObjArr } from "../utils/constant";
+import { Fragment } from "react";
 
 export default function Resume() {
   return (
@@ -25,21 +26,25 @@ export default function Resume() {
               <h1 className="text-[20px] xl:ml-[51px] xs:ml-[28px] font-bold xl:mb-3 xs:mb-1">
                 Education Quality
               </h1>
-              {qualificationObjArr.map(({ title, year, describe, marks }) => (
-                <Qualification
-                  year={year}
-                  title={title}
-                  explaination={
-                    <div className=" mt-2 ">
-                      {describe}
-                      <div className="float-right text-[12px] mt-[10px]">
-                        <b className="ml-[10px]">Marks:</b>
-                        <span className="ml-[10px] ">{marks}</span>
-                      </div>
-                    </div>
-                  }
-                />
-              ))}
+              {qualificationObjArr.map(
+                ({ title, year, describe, marks }, index) => (
+                  <Fragment key={index}>
+                    <Qualification
+                      year={year}
+                      title={title}
+                      explaination={
+                        <div className=" mt-2 ">
+                          {describe}
+                          <div className="float-right text-[12px] mt-[10px]">
+                            <b className="ml-[10px]">Marks:</b>
+                            <span className="ml-[10px] ">{marks}</span>
+                          </div>
+                        </div>
+                      }
+                    />
+                  </Fragment>
+                )
+              )}
             </div>
           </div>
           <div className="flex ">
@@ -58,12 +63,14 @@ export default function Resume() {
               <h1 className="text-[20px] xl:ml-[51px] xs:ml-[28px] font-bold xl:mb-3 xs:mb-1">
                 Job Experience
               </h1>
-              {experienceObjArr.map(({ title, year, describe }) => (
-                <Qualification
-                  year={year}
-                  title={title}
-                  explaination={<div className=" mt-2 ">{describe}</div>}
-                />
+              {experienceObjArr.map(({ title, year, describe }, index) => (
+                <Fragment key={index}>
+                  <Qualification
+                    year={year}
+                    title={title}
+                    explaination={<div className=" mt-2 ">{describe}</div>}
+                  />
+                </Fragment>
               ))}
             </div>
           </div>

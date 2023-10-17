@@ -1,11 +1,6 @@
-import {
-  LinkedIn,
-  GitHub,
-  Instagram,
-  Facebook,
-  Twitter,
-} from "@material-ui/icons";
+
 import Banner from "../assests/images/banner-img.jpg";
+import SocialMedia from "../common/social-media";
 
 function Home() {
   return (
@@ -64,7 +59,7 @@ function Home() {
               <div className="flex w-100 justify-content-between ">
                 <div className="d-flex">
                   <h1 className="font-bold text-blue-500 xl:text-xl xs:text-[23px]">
-                    1
+                    2
                   </h1>
                   <div className="mt-2">
                     <p>
@@ -98,53 +93,9 @@ function Home() {
               src={Banner}
               className=" xl:h-[493px]  lg:h-[360px]  xs:h-[200px]  rounded"
             />
-            <div className="grid grid-cols-5 w-[370px] gap-1 mt-8 xl:ml-5 xs:ml-1 absolute top-[438px]">
-              <div className="bg-[#f6f6f6] hover:scale-110 hover:text-[white] hover:bg-blue-500 h-[45px] w-[40px] p-2   rounded-md bg-[#ECF0F3]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] ">
-                <a
-                  className="hover:text-white hover:scale-120"
-                  href="https://www.linkedin.com/in/ranjana-chaudhary-2bb393211/"
-                  target="_blank"
-                >
-                  <LinkedIn />
-                </a>
-              </div>
-              <div className=" h-[45px] w-[40px] hover:scale-110 hover:text-[white] hover:bg-blue-500  p-2 rounded-md bg-[#ECF0F3]  bg-[#f6f6f6] drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] ">
-                <a
-                  className="hover:text-white"
-                  href="https://github.com/ranjana980"
-                  target="_blank"
-                >
-                  <GitHub />
-                </a>
-              </div>
-              <div className="bg-[#f6f6f6] hh-[45px] hover:scale-110 hover:text-[white] hover:bg-blue-500  w-[40px] p-2 rounded-md bg-[#ECF0F3]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] ">
-                <a
-                  className="hover:text-white hover:scale-120"
-                  href="https://twitter.com/RanjanaChoudary?t=A7OancGyt0WnrZBOVxrG_w&s=09"
-                  target="_blank"
-                >
-                  <Twitter />
-                </a>
-              </div>
-              <div className="bg-[#f6f6f6] hh-[45px] hover:scale-110 hover:text-[white] hover:bg-blue-500  w-[40px] p-2 rounded-md bg-[#ECF0F3]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] ">
-                <a
-                  className="hover:text-white hover:scale-120"
-                  href="https://www.instagram.com/ranjanachaudhary_123/"
-                  target="_blank"
-                >
-                  <Instagram />
-                </a>
-              </div>
-              <div className="bg-[#f6f6f6] hh-[45px] hover:scale-110 hover:text-[white] hover:bg-blue-500  w-[40px] p-2 rounded-md bg-[#ECF0F3]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] ">
-                <a
-                  className="hover:text-white hover:scale-120"
-                  href="https://www.facebook.com/Ranjana24081996?mibextid=ZbWKwL"
-                  target="_blank"
-                >
-                  <Facebook />
-                </a>
-              </div>
-            </div>
+           
+            <div className="absolute top-[438px] ml-[10px]"><SocialMedia/></div>
+            
           </div>
         </div>
       </div>
