@@ -10,7 +10,7 @@ import Banner from "../assests/images/banner-img.jpg";
 function Home() {
   return (
     <div className="Home">
-      <div className="row  xs:pl-[0px] xl:pl-10 xl:pr-[15px] xs:pr-[5px] xl:mt-36 xs:mt-[119px] justify-content-between" >
+      <div className="row  xs:pl-[20px] xl:pl-10 xl:pr-[15px] xs:pr-[5px] xl:mt-22 xs:mt-[119px] justify-content-between">
         <div className="col-xs-6 col-sm-6 col-md-5  ">
           <div className="xl:w-[410px] xs:w-[300px] mt-5">
             <h1>WELCOME TO MY PROFILE</h1>
@@ -92,58 +92,58 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className=" col-xs-12 col-sm-12 col-md-5  ">
-          <div className="br   xl:p-4 lg:p-4 bg-[#ECF0F3]  drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] xl:h-[450px]   xl:w-[550px] lg:h-[400px]   lg:w-[500px] xs:h-[400px] xs:hidden xs:mt-5 xl:block lg:block">
+        <div className=" col-xs-12 col-sm-12 col-md-6 ">
+          <div className="br xl:p-4 lg:p-4 xl:w-[700px]  lg:w-[500px] xs:hidden xs:mt-5 xl:block lg:block">
             <img
               src={Banner}
-              className=" xl:h-[420px] xl:w-[520px] lg:h-[360px] lg:w-[500px] border-solid border-[3px] border-blue-500 xs:h-[200px] xs:w-[200px] "
+              className=" xl:h-[493px]  lg:h-[360px]  xs:h-[200px]  rounded"
             />
-          </div>
-          <div className="grid grid-cols-5 w-[370px] gap-1 mt-8 xl:ml-5 xs:ml-1">
-            <div className="bg-[#f6f6f6] hover:scale-110 hover:text-[white] hover:bg-blue-500 h-[45px] w-[40px] p-2   rounded-md bg-[#ECF0F3]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] ">
-              <a
-                className="hover:text-white hover:scale-120"
-                href="https://www.linkedin.com/in/ranjana-chaudhary-2bb393211/"
-                target="_blank"
-              >
-                <LinkedIn />
-              </a>
-            </div>
-            <div className=" h-[45px] w-[40px] hover:scale-110 hover:text-[white] hover:bg-blue-500  p-2 rounded-md bg-[#ECF0F3]  bg-[#f6f6f6] drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] ">
-              <a
-                className="hover:text-white"
-                href="https://github.com/ranjana980"
-                target="_blank"
-              >
-                <GitHub />
-              </a>
-            </div>
-            <div className="bg-[#f6f6f6] hh-[45px] hover:scale-110 hover:text-[white] hover:bg-blue-500  w-[40px] p-2 rounded-md bg-[#ECF0F3]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] ">
-              <a
-                className="hover:text-white hover:scale-120"
-                href="https://twitter.com/RanjanaChoudary?t=A7OancGyt0WnrZBOVxrG_w&s=09"
-                target="_blank"
-              >
-                <Twitter />
-              </a>
-            </div>
-            <div className="bg-[#f6f6f6] hh-[45px] hover:scale-110 hover:text-[white] hover:bg-blue-500  w-[40px] p-2 rounded-md bg-[#ECF0F3]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] ">
-              <a
-                className="hover:text-white hover:scale-120"
-                href="https://www.instagram.com/ranjanachaudhary_123/"
-                target="_blank"
-              >
-                <Instagram />
-              </a>
-            </div>
-            <div className="bg-[#f6f6f6] hh-[45px] hover:scale-110 hover:text-[white] hover:bg-blue-500  w-[40px] p-2 rounded-md bg-[#ECF0F3]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] ">
-              <a
-                className="hover:text-white hover:scale-120"
-                href="https://www.facebook.com/Ranjana24081996?mibextid=ZbWKwL"
-                target="_blank"
-              >
-                <Facebook />
-              </a>
+            <div className="grid grid-cols-5 w-[370px] gap-1 mt-8 xl:ml-5 xs:ml-1 absolute top-[438px]">
+              <div className="bg-[#f6f6f6] hover:scale-110 hover:text-[white] hover:bg-blue-500 h-[45px] w-[40px] p-2   rounded-md bg-[#ECF0F3]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] ">
+                <a
+                  className="hover:text-white hover:scale-120"
+                  href="https://www.linkedin.com/in/ranjana-chaudhary-2bb393211/"
+                  target="_blank"
+                >
+                  <LinkedIn />
+                </a>
+              </div>
+              <div className=" h-[45px] w-[40px] hover:scale-110 hover:text-[white] hover:bg-blue-500  p-2 rounded-md bg-[#ECF0F3]  bg-[#f6f6f6] drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] ">
+                <a
+                  className="hover:text-white"
+                  href="https://github.com/ranjana980"
+                  target="_blank"
+                >
+                  <GitHub />
+                </a>
+              </div>
+              <div className="bg-[#f6f6f6] hh-[45px] hover:scale-110 hover:text-[white] hover:bg-blue-500  w-[40px] p-2 rounded-md bg-[#ECF0F3]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] ">
+                <a
+                  className="hover:text-white hover:scale-120"
+                  href="https://twitter.com/RanjanaChoudary?t=A7OancGyt0WnrZBOVxrG_w&s=09"
+                  target="_blank"
+                >
+                  <Twitter />
+                </a>
+              </div>
+              <div className="bg-[#f6f6f6] hh-[45px] hover:scale-110 hover:text-[white] hover:bg-blue-500  w-[40px] p-2 rounded-md bg-[#ECF0F3]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] ">
+                <a
+                  className="hover:text-white hover:scale-120"
+                  href="https://www.instagram.com/ranjanachaudhary_123/"
+                  target="_blank"
+                >
+                  <Instagram />
+                </a>
+              </div>
+              <div className="bg-[#f6f6f6] hh-[45px] hover:scale-110 hover:text-[white] hover:bg-blue-500  w-[40px] p-2 rounded-md bg-[#ECF0F3]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] ">
+                <a
+                  className="hover:text-white hover:scale-120"
+                  href="https://www.facebook.com/Ranjana24081996?mibextid=ZbWKwL"
+                  target="_blank"
+                >
+                  <Facebook />
+                </a>
+              </div>
             </div>
           </div>
         </div>

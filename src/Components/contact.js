@@ -38,7 +38,7 @@ export default function Contact() {
     return (
        
             < >
-                <div className="xl:flex lg:flex w-100 xl:pl-10 lg:pl-10  xs:pl-0 xl:pr-10 lg:pr-10  xs:pr-0 justify-content-between" >
+                <div className="xl:flex lg:flex w-100 xl:pl-10 lg:pl-10  xs:pl-[20px] xl:pr-10 lg:pr-10  xs:pr-0 justify-content-between" >
                     <div className="xl:w-[40%] mt-5 xs:w-[480px]  p-4  bg-[#ECF0F3] drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">
                         <img src="https://rainbowit.net/html/inbio/assets/images/contact/contact1.png" className='w-[700px]'/>
                         <h1
