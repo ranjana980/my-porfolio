@@ -4,14 +4,23 @@ import SocialMedia from "../common/social-media";
 import Footer from "./footer";
 import { Formik, Form } from "formik";
 import { initialValues, validationSchema } from "../utils/constant";
+import axios from "axios";
 
 export default function Contact() {
-  const handleSubmit = (values) => {
-    console.log(values, "values");
+
+  const handleSubmit = async (values) => {
+    try {
+      const response = await axios.post('http://localhost:5000/send-email',values);
+      console.log('Data from API:', response.data);
+    } catch (error) {
+      console.error('Error:', error);
+    }
   };
+
   const handleChange = (event, setFieldValue) => {
     setFieldValue(event.target.name, event.target.value);
   };
+
   return (
     <>
       <div className="xl:flex lg:flex w-100 xl:pl-10 lg:pl-10  xs:pl-[20px] xl:pr-10 lg:pr-10  xs:pr-0 justify-content-between">
