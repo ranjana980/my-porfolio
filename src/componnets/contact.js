@@ -6,41 +6,9 @@ import { Formik, Form } from "formik";
 import { initialValues, validationSchema } from "../utils/constant";
 
 export default function Contact() {
-    // const transport = {
-    //     secure: true,
-    //     service: "gmail",
-    //     auth: {
-    //         user: "khusheemathur18@gmail.com",
-    //         pass: "csgnumadwbgfvcxk"
-    //     }
-    // }
-    // const defaults = {
-    //     from: "ranjana20@navgurukul.org",
-    // }
-    // const WelcomeEmail = ({ firstName }) => ({
-    //     subject: `👋 ${firstName}`,
-    //     body: (
-    //         <div>
-    //             <p>Hello {firstName}!</p>
-    //             <p>Hope you'll enjoy the package!</p>
-    //         </div>
-    //     )
-    // })
-    // const handleSendMail = () => {
-    //     mailer.send('WelcomeEmail', { firstName: 'Mathieu' }, {
-    //         to: 'ranjana20@navgurukul.org'
-    //     })
-    // }
-    // const mailer = Mailer(
-    //     { transport, defaults },
-    //     { WelcomeEmail,  }
-    // )
-
   const handleSubmit = (values) => {
     console.log(values, "values");
-    
   };
-  
   const handleChange = (event, setFieldValue) => {
     setFieldValue(event.target.name, event.target.value);
   };
@@ -69,38 +37,37 @@ export default function Contact() {
             validationSchema={validationSchema}
             onSubmit={handleSubmit}
           >
-            {( formik ) => (
-              <Form className="grid grid-cols-12">
-                <div className="col-span-6">
-                  <InputComponent
-                    inputType={"input"}
-                    label="Your Name"
-                    type="text"
-                    width="300"
-                    name="name"
-                    required
-                    formik={formik}
-                    onChange={handleChange}
-                  />
-                </div>
-                <div className="col-span-6 ml-2">
-                  <InputComponent
-                    inputType={"input"}
-                    label="Contact Number"
-                    type="text"
-                    width="300"
-                    name="phone"
-                    required
-                    formik={formik}
-                    onChange={handleChange}
-                  />
+            {(formik) => (
+              <Form>
+                <div className="grid grid-cols-12">
+                  <div className="col-span-6">
+                    <InputComponent
+                      inputType="input"
+                      label="Your Name"
+                      type="text"
+                      name="name"
+                      required
+                      formik={formik}
+                      onChange={handleChange}
+                    />
+                  </div>
+                  <div className="col-span-6 ml-2">
+                    <InputComponent
+                      inputType="input"
+                      label="Contact Number"
+                      type="text"
+                      name="phone"
+                      required
+                      formik={formik}
+                      onChange={handleChange}
+                    />
+                  </div>
                 </div>
                 <div className="col-span-12 mt-4">
                   <InputComponent
-                    inputType={"input"}
+                    inputType="input"
                     label="Email"
                     type="text"
-                    width="600"
                     name="email"
                     required
                     formik={formik}
@@ -112,7 +79,6 @@ export default function Contact() {
                     inputType={"input"}
                     label="Subject"
                     type="text"
-                    width="600"
                     name="subject"
                     required
                     formik={formik}
@@ -124,7 +90,6 @@ export default function Contact() {
                     inputType={"textArea"}
                     label="Message"
                     type="text"
-                    width="600"
                     name="message"
                     required
                     formik={formik}

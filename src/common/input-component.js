@@ -17,7 +17,7 @@ export default function InputComponent({
         <div>
           <textarea
             rows={6}
-            className={`border-solid rounded-[4px] p-2 border-[1px] border-gray-300 w-[${width}px]`}
+            className={`border-solid rounded-[4px] p-2 border-[1px] border-gray-300 w-100 `}
             name={name}
             value={formik?.values?.[name]}
             onChange={(e)=>onChange(e,formik.setFieldValue)}
@@ -27,7 +27,7 @@ export default function InputComponent({
       ) : (
         <div>
           <input
-            className={`border-solid rounded-[4px] p-2 border-[1px] border-gray-300 w-[${width}px]`}
+            className={`border-solid rounded-[4px] p-2 border-[1px] border-gray-300 w-100`}
             name={name}
             value={formik.values?.[name]}
             type={type}
