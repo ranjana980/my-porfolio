@@ -158,6 +158,11 @@ h1 h2 h3 h4 h5 h6 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+body{
+  font-family:sans-serif;
+  font-weight: 100;
+
+}
 h5 {
   font-size: 21px;
   margin-left: 10px;
@@ -527,4 +532,27 @@ h1 h2 h3 h4 h5 h6 {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Notification.css */
+.notification {
+  padding: 8px;
+  margin: 8px;
+  border: 1px solid #ccc;
+}
+.notification.success {
+  background-color: #4CAF50;
+  color: white;
+}
+.notification.error {
+  background-color: #F44336;
+  color: white;
+}
+
+/* NotificationManager.css */
+.notification-manager {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
 }

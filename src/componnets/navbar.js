@@ -15,7 +15,7 @@ export default function Navbar({ home, portFolio, about, blog, contact }) {
         return portFolio.current?.scrollIntoView({ behavior: "smooth" });
       case "about":
         return about.current?.scrollIntoView({ behavior: "smooth" });
-      case "blog":
+      case "blogs":
         return blog.current?.scrollIntoView({ behavior: "smooth" });
       case "contact":
         return contact.current?.scrollIntoView({ behavior: "smooth" });
@@ -47,6 +47,11 @@ export default function Navbar({ home, portFolio, about, blog, contact }) {
           <li className="nav-item  cursor-pointer">
             <a className="nav-link" onClick={() => handleClick("home")}>
               Home{" "}
+            </a>
+          </li>
+          <li className="nav-item  cursor-pointer">
+            <a className="nav-link" onClick={() => handleClick("blogs")}>
+              Blogs
             </a>
           </li>
           <li className="nav-item  cursor-pointer">

@@ -1,4 +1,3 @@
-
 import Banner from "../assests/images/banner-img.jpg";
 import SocialMedia from "../common/social-media";
 
@@ -21,39 +20,22 @@ function Home() {
               </h1>{" "}
             </h1>
             <div className=" mt-2  xl:text-[17px] xs:text-[17px] xl:mr-[10px] xs:mr-[50px] xl:w-[600px] xs:w-[500px] relative text-start">
-              <span>
-                {" "}
-                I'm a experience frontend developer with over 1 years of
-                experience in software industry
-              </span>
-              <span>
-                {" "}
-                excellent problem solving skills. I've MERN Stack skills{" "}
-              </span>
-              <span>
-                {" "}
-                also to help you to build your personal website with seamless
-                customization. I've
-              </span>
-              <span>
-                {" "}
-                worked on many complex data management project and I've been
-                learning each day. I'm highly proficient
-              </span>
-              <span>
-                {" "}
-                in Fronted Development and I have learnt Backend also I use
-                Mongodb database with{" "}
-              </span>
-              <span>
-                {" "}
-                cluster for db connection I can work and manage from development
-                to test to deployment &
-              </span>
-              <span>
-                {" "}
-                my another expertise is, I write very clean and readable code.
-              </span>
+              I am an experienced frontend developer with over 2 year of
+              dedicated service in the software industry. My work experience has
+              honed my problem-solving skills, and I bring to the table a strong
+              proficiency in the frontend development. If you're looking to create a
+              personalized website with seamless customization, I can help make
+              that a reality. During my tenure, I've actively participated in
+              numerous complex data management projects, where I've learned and
+              grown with each endeavor. While frontend development is my core
+              strength, I've also delved into backend development, working with
+              MongoDB and even configuring database clusters for robust
+              connections. One of my key strengths lies in managing projects
+              from development through testing and deployment, ensuring a smooth
+              transition from inception to a live, functioning application. In
+              addition to my technical skills, I take pride in writing clean,
+              readable code that not only performs well but is easily
+              maintainable.
             </div>
             <div className="row col-12 w-100 mt-14 ">
               <div className="flex w-100 justify-content-between ">
@@ -93,9 +75,10 @@ function Home() {
               src={Banner}
               className=" xl:h-[493px]  lg:h-[360px]  xs:h-[200px]  rounded"
             />
-           
-            <div className="absolute top-[438px] ml-[10px]"><SocialMedia/></div>
-            
+
+            <div className="absolute top-[438px] ml-[10px]">
+              <SocialMedia />
+            </div>
           </div>
         </div>
       </div>

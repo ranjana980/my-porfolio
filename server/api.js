@@ -11,6 +11,7 @@ app.use(bodyParser.json());
 app.use(
   cors({
     origin: "http://localhost:3000",
+    // origin:'https://my-porfolio-six.vercel.app'
   })
 );
 
@@ -26,7 +27,6 @@ app.post("/send-email", (req, res) => {
     emailService.sendEmail(req.body);
     res.status(200).json({ message: "Email sent successfully" });
   } catch (error) {
-    console.error("Error sending email:", error);
     res.status(500).json({ error: "Internal server error" });
   }
 });

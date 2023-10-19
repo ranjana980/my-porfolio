@@ -6,14 +6,16 @@ import { Formik, Form } from "formik";
 import { initialValues, validationSchema } from "../utils/constant";
 import axios from "axios";
 
-export default function Contact() {
-
+export default function Contact({handleNotify}) {
   const handleSubmit = async (values) => {
     try {
-      const response = await axios.post('http://localhost:5000/send-email',values);
-      console.log('Data from API:', response.data);
+      const response = await axios.post(
+        "http://localhost:5000/send-email",
+        values
+      );
+      handleNotify("success",response.data.message)
     } catch (error) {
-      console.error('Error:', error);
+      handleNotify("error",error.message)
     }
   };
 

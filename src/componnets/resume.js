@@ -33,10 +33,10 @@ export default function Resume() {
                       year={year}
                       title={title}
                       explaination={
-                        <div className=" mt-2 ">
+                        <div className=" mt-2 text-[14px] ">
                           {describe}
                           <div className="float-right text-[12px] mt-[10px]">
-                            <b className="ml-[10px]">Marks:</b>
+                            <b className="ml-[10px] font-bold">Marks:</b>
                             <span className="ml-[10px] ">{marks}</span>
                           </div>
                         </div>
@@ -68,7 +68,7 @@ export default function Resume() {
                   <Qualification
                     year={year}
                     title={title}
-                    explaination={<div className=" mt-2 ">{describe}</div>}
+                    explaination={<div className=" mt-2 text-[14px] ">{describe}</div>}
                   />
                 </Fragment>
               ))}
