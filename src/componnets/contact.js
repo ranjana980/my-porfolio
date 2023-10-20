@@ -42,7 +42,7 @@ export default function Contact({handleNotify}) {
           <h6 className="mt-1 text-start">Email: ranjana20@navgurukul.org</h6>
           <SocialMedia />
         </div>
-        <div className="xl:w-[45%]   p-4 mt-5  bg-[#ECF0F3]  drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">
+        <div className="xl:w-[45%] lg:w-[50%]  p-4 mt-5  bg-[#ECF0F3]  drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">
           <Formik
             initialValues={initialValues}
             validationSchema={validationSchema}
