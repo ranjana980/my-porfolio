@@ -26,10 +26,10 @@ function App() {
     <>
       <Navbar
         home={ref}
-        portFolio={ref1}
+        resume={ref1}
+        projects={ref2}
+        blogs={ref3}
         contact={ref4}
-        about={ref2}
-        blog={ref3}
       />
       <div ref={ref}>
         <Home />

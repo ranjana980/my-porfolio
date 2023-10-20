@@ -3,7 +3,7 @@ import { Drawer } from "@mui/material";
 import profile from "./../assests/images/profile.jpg";
 import { Menu, Close } from "@material-ui/icons";
 
-export default function Navbar({ home, portFolio, about, blog, contact }) {
+export default function Navbar({ home, resume, projects, blogs, contact }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = (type) => {
@@ -11,12 +11,12 @@ export default function Navbar({ home, portFolio, about, blog, contact }) {
     switch (type) {
       case "home":
         return home.current?.scrollIntoView({ behavior: "smooth" });
-      case "portFolio":
-        return portFolio.current?.scrollIntoView({ behavior: "smooth" });
-      case "about":
-        return about.current?.scrollIntoView({ behavior: "smooth" });
       case "blogs":
-        return blog.current?.scrollIntoView({ behavior: "smooth" });
+        return blogs.current?.scrollIntoView({ behavior: "smooth" });
+      case "resume":
+        return resume.current?.scrollIntoView({ behavior: "smooth" });
+      case "projects":
+        return projects.current?.scrollIntoView({ behavior: "smooth" });
       case "contact":
         return contact.current?.scrollIntoView({ behavior: "smooth" });
     }
@@ -55,12 +55,12 @@ export default function Navbar({ home, portFolio, about, blog, contact }) {
             </a>
           </li>
           <li className="nav-item  cursor-pointer">
-            <a className="nav-link" onClick={() => handleClick("portFolio")}>
+            <a className="nav-link" onClick={() => handleClick("resume")}>
               Resume
             </a>
           </li>
           <li className="nav-item  cursor-pointer">
-            <a className="nav-link" onClick={() => handleClick("about")}>
+            <a className="nav-link" onClick={() => handleClick("projects")}>
               Projects
             </a>
           </li>
@@ -110,16 +110,19 @@ export default function Navbar({ home, portFolio, about, blog, contact }) {
             </span>
           </div>
           <li className="nav-item mt-[100px]  cursor-pointer">
-            <a onClick={() => handleClick("Home")}>HOME </a>
+            <a onClick={() => handleClick("home")}>HOME </a>
           </li>
           <li className="nav-item mt-5  cursor-pointer">
-            <a onClick={() => handleClick("Portfolio")}>RESUME</a>
+            <a onClick={() => handleClick("blogs")}>BlOGS</a>
           </li>
           <li className="nav-item mt-5 cursor-pointer">
-            <a onClick={() => handleClick("About")}>PROJECTS</a>
+            <a onClick={() => handleClick("resume")}>RESUME</a>
+          </li>
+          <li className="nav-item mt-5 cursor-pointer">
+            <a onClick={() => handleClick("projects")}>PROJECTS</a>
           </li>
           <li className="nav-item mt-5 cursor-pointer ">
-            <a onClick={() => handleClick("Contact")}>CONTACT</a>
+            <a onClick={() => handleClick("contact")}>CONTACT</a>
           </li>
         </ul>
       </Drawer>
