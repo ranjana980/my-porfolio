@@ -26,7 +26,7 @@ export default function Contact({handleNotify}) {
   return (
     <>
       <div className="xl:flex lg:flex w-100 xl:pl-10 lg:pl-10  xs:pl-[20px] xl:pr-10 lg:pr-10  xs:pr-0 justify-content-between">
-        <div className="xl:w-[40%] mt-5 xs:w-[480px]  p-4  bg-[#ECF0F3] drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">
+        <div className="xl:w-[45%] mt-5 xs:w-[480px]  p-4  bg-[#ECF0F3] drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">
           <img
             src="https://rainbowit.net/html/inbio/assets/images/contact/contact1.png"
             className="w-[700px]"
@@ -42,7 +42,7 @@ export default function Contact({handleNotify}) {
           <h6 className="mt-1 text-start">Email: ranjana20@navgurukul.org</h6>
           <SocialMedia />
         </div>
-        <div className="xl:w-[45%] lg:w-[50%]  p-4 mt-5  bg-[#ECF0F3]  drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">
+        <div className="xl:w-[45%] mt-5 xs:w-[480px]  p-4  bg-[#ECF0F3] drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">
           <Formik
             initialValues={initialValues}
             validationSchema={validationSchema}
