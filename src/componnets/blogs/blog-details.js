@@ -12,7 +12,7 @@ const BlogDetails = () => {
 
   return (
     <div className="grid grid-cols-12  gap-[50px] pl-[60px]">
-      <div className="xl:mt-[100px] xs:mt-[119px] col-span-7">
+      <div className="xl:mt-[100px] xs:mt-[119px] xl:col-span-7 lg:col-span-7 sm:col-span-12 md:col-span-12 col-span-12">
         {blogObjArr
           .filter((item) => item.route === id)
           .map(
@@ -90,7 +90,7 @@ const BlogDetails = () => {
             )
           )}
       </div>
-      <div className="col-span-3 xl:mt-[100px] xs:mt-[119px] ml-5">
+      <div className="xl:col-span-3 lg:col-span-3 sm:col-span-12 md:col-span-12 col-span-12 xl:mt-[100px] xs:mt-[119px] ml-5">
         <h1 className="mt-3 text-center text-xl font-bold">Related Blogs</h1>
         {blogObjArr.filter(
           (item) => item.route !== id && item.type === technology
