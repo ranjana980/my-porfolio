@@ -14,14 +14,15 @@ function App() {
 
   return (
     <>
-      <Navbar
-        home={ref}
-        resume={ref1}
-        projects={ref2}
-        blogs={ref3}
-        contact={ref4}
-      />
+
       <BrowserRouter>
+        <Navbar
+          home={ref}
+          resume={ref1}
+          projects={ref2}
+          blogs={ref3}
+          contact={ref4}
+        />
         <Routes>
           <Route index path="/" element={<PortFolioPage ref={ref} ref3={ref3} ref1={ref1} ref2={ref2} ref4={ref4} />} />
           <Route path="/blog/:technology/:id" element={<BlogDetails />} />
