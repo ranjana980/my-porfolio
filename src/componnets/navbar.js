@@ -2,14 +2,17 @@ import { useState } from "react";
 import { Drawer } from "@mui/material";
 import profile from "./../assests/images/profile.jpg";
 import { Menu, Close } from "@material-ui/icons";
+import { useNavigate } from "react-router-dom";
 
 export default function Navbar({ home, resume, projects, blogs, contact }) {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate=useNavigate()
 
   const handleClick = (type) => {
     setIsOpen(false);
     switch (type) {
       case "home":
+        navigate('/')
         return home.current?.scrollIntoView({ behavior: "smooth" });
       case "blogs":
         return blogs.current?.scrollIntoView({ behavior: "smooth" });
@@ -26,6 +29,7 @@ export default function Navbar({ home, resume, projects, blogs, contact }) {
     <div className="flex justify-content-between w-100 fixed bg-[#ECF0F3] top-[0px] z-[99]  drop-shadow-[0_5px_5px_rgba(0,0,0,0.10)] xl:pl-10  xs:pl-[0px]">
       <div className="flex p-2">
         <img
+        onClick={()=>{ navigate('/')}}
           src={profile}
           className="rounded-full xl:h-[50px] xl:w-[50px] xs:h-[75px] xs:w-[75px] border-solid border-[3px] border-blue-500   "
         />
