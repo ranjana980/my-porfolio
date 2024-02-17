@@ -16,7 +16,7 @@ app.use(
 );
 
 app.all('/*', (req, res, next) => {
-  res.header('Access-Control-Allow-Origin', 'http://localhost:3000'); // Replace with your React app's URL
+  res.header('Access-Control-Allow-Origin', 'https://my-porfolio-six.vercel.app'); // Replace with your React app's URL
   res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE');
   res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
   next();
