@@ -90,7 +90,7 @@ const BlogDetails = () => {
             )
           )}
       </div>
-      <div className="xl:col-span-3 lg:col-span-3 sm:col-span-12 md:col-span-12 col-span-12 xl:mt-[100px] xs:mt-[119px] ml-5">
+      <div className="xl:col-span-3 lg:col-span-3 sm:col-span-12 md:col-span-12 col-span-12 xl:mt-[100px] xs:mt-[19px] ml-5">
         <h1 className="mt-3 text-center text-xl font-bold">Related Blogs</h1>
         {blogObjArr.filter(
           (item) => item.route !== id && item.type === technology
