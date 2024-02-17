@@ -10,8 +10,8 @@ app.use(bodyParser.json());
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
-    // origin:'https://my-porfolio-six.vercel.app'
+    // origin: "http://localhost:3000",
+    origin:'https://my-porfolio-six.vercel.app'
   })
 );
 
