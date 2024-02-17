@@ -1,7 +1,6 @@
 import "./App.css";
 import Navbar from "./componnets/navbar";
 import { useRef } from "react";
-
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import BlogDetails from "./componnets/blogs/blog-details";
 import PortFolioPage from "./componnets/main-home-page";
@@ -24,7 +23,7 @@ function App() {
       />
       <BrowserRouter>
         <Routes>
-        <Route index path="/" element={<PortFolioPage />} />
+          <Route index path="/" element={<PortFolioPage ref={ref} ref3={ref3} ref1={ref1} ref2={ref2} ref4={ref4} />} />
           <Route path="/blog/:technology/:id" element={<BlogDetails />} />
         </Routes>
       </BrowserRouter>

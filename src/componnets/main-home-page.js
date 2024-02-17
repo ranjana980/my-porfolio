@@ -1,10 +1,11 @@
-import { Home } from "@material-ui/icons";
+
 import React, { useState } from "react";
 import Blog from "./blog";
 import Contact from "./contact";
 import Projects from "./projects";
 import Resume from "./resume";
 import AlertComponent from "./../common/alert";
+import Home from './home'
 
 export default function PortFolioPage({ ref, ref3, ref1, ref2, ref4 }) {
   const [isOpenAlert, setIsOpenAlert] = useState(false);
