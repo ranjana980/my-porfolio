@@ -11,6 +11,9 @@ import FormikImage1 from "../assests/images/formik-img1.png";
 import ReactQueryImage1 from '../assests/images/react-query-img1.png'
 import ReactQueryImage2 from '../assests/images/react-query-img2.png'
 import ReactQueryImage3 from '../assests/images/react-query-img3.png'
+import Jwellery from '../assests/images/jwellery-webpage.png'
+import AdminPanel from '../assests/images/admin-panel.png'
+import SocialMedia from "../assests/images/sociel-media.png";
 
 import {
   LinkedIn,
@@ -27,6 +30,21 @@ const projectObjArr = [
     url: "https://e-learning-sand.vercel.app/",
     projectImg: ELearning,
     title: "E-learnig",
+  },
+  {
+    url: "https://mg-jewellers.vercel.app/",
+    projectImg: Jwellery,
+    title: "Jwellery WebPage",
+  },
+  {
+    url: "https://admin-dashboard-sigma-nine.vercel.app/",
+    projectImg: AdminPanel,
+    title: "Admin Panel",
+  },
+  {
+    url: "https://user-app-brown.vercel.app/UserPage",
+    projectImg:SocialMedia ,
+    title: "Sociel User App",
   },
   {
     url: "https://react-food-recipe-finder.vercel.app/",
@@ -136,7 +154,7 @@ const blogObjArr = [
     subTitle: "Exploring Next.js: The Future of React Frameworks",
     introduction:
       "In the world of web development, staying ahead of the curve is crucial. With evolving user expectations and technological advancements, developers need tools that streamline their workflow, enhance performance, and boost productivity. Next.js, a React framework, has emerged as a game-changer, offering a powerful solution for building modern web applications. In this blog post, we'll delve into the world of Next.js, exploring its features, benefits, and why it's shaping the future of web development.",
-      sortTitle:"What is Next.js?",
+    sortTitle: "What is Next.js?",
     sortDescription: `Next.js is a React framework that enables developers to build server-rendered React applications with ease. Developed by Vercel, it offers a comprehensive solution for creating dynamic, performant web experiences. Next.js combines the simplicity and flexibility of React with powerful features such as server-side rendering (SSR), static site generation (SSG), automatic code splitting, and routing, making it an ideal choice for building everything from simple websites to complex web applications.`,
     featuresHeading: "Key Features of Next.js:",
     features: [
@@ -177,7 +195,7 @@ const blogObjArr = [
     conclusion:
       "In conclusion, Next.js represents the future of React frameworks, offering a powerful solution for building modern web applications. With its comprehensive feature set, including server-side rendering, static site generation, automatic code splitting, and built-in routing, Next.js empowers developers to create high-performance, SEO-friendly web experiences with ease. Whether you're building a simple website or a complex web application, Next.js provides the tools and capabilities you need to succeed in today's competitive landscape. Embrace Next.js and unlock the full potential of React development.",
     type: "Technology",
-    route:'next-js'
+    route: 'next-js'
   },
   {
     image: ReactQuery,
@@ -220,7 +238,7 @@ const blogObjArr = [
     conclusion:
       "React Query is a powerful tool for simplifying state management and data fetching in React applications. By abstracting away the complexities of asynchronous data handling, React Query allows developers to focus on building great user experiences without getting bogged down by boilerplate code./nWhether you're building a small personal project or a large-scale enterprise application, React Query can significantly enhance your development workflow and productivity. With its intuitive API, automatic caching, and seamless integration with React, React Query is undoubtedly a valuable addition to any React developer's toolkit.",
     type: "Library",
-    route:'react-query'
+    route: 'react-query'
   },
   {
     image: Prismic,
@@ -269,7 +287,7 @@ const blogObjArr = [
     conclusion:
       "Prismic CMS offers a modern and versatile solution for managing digital content, empowering developers and content creators to build dynamic and engaging web experiences. With its flexible architecture, intuitive interface, and powerful features, Prismic is gaining popularity among businesses and developers seeking a scalable and customizable CMS solution. /nWhether you're building a corporate website, an e-commerce platform, or a content-rich application, Prismic provides the tools and capabilities to bring your vision to life efficiently and effectively. As the digital landscape continues to evolve, Prismic remains at the forefront, helping teams deliver compelling and immersive digital experiences to audiences worldwide.",
     type: "CMS",
-    route:'prismic'
+    route: 'prismic'
   },
   {
     image: Redux,
@@ -311,13 +329,13 @@ const blogObjArr = [
     conclusion:
       "Redux has become a staple in the React ecosystem, offering a robust solution for managing state in complex applications. By embracing Redux's principles of single source of truth, immutable state, and pure functions, developers can build scalable and maintainable React applications with ease. Whether you're working on a small project or a large-scale application, Redux provides the tools and patterns necessary to handle state effectively. So, if you're looking to level up your React development game, consider incorporating Redux into your toolkit.",
     type: "Library",
-    route:'redux'
+    route: 'redux'
   },
   {
     image: Formik,
     title: "Formik & Yup",
-    subTitle:"Mastering Form Management with Formik and Yup",
-    introduction:"In modern web development, creating forms is an essential task, whether you're building a simple contact form or a complex multi-step wizard. However, managing form state, validation, and submission can quickly become cumbersome and error-prone. Thankfully, tools like Formik and Yup come to the rescue, offering a streamlined approach to form management in React applications. In this blog post, we'll explore how Formik and Yup work together to simplify form development and enhance user experience.",
+    subTitle: "Mastering Form Management with Formik and Yup",
+    introduction: "In modern web development, creating forms is an essential task, whether you're building a simple contact form or a complex multi-step wizard. However, managing form state, validation, and submission can quickly become cumbersome and error-prone. Thankfully, tools like Formik and Yup come to the rescue, offering a streamlined approach to form management in React applications. In this blog post, we'll explore how Formik and Yup work together to simplify form development and enhance user experience.",
     sortDescription: `Formik is a popular form library for React that helps developers handle form state, validation, and submission with ease. It provides a simple API to manage form values, errors, touched fields, and form submission. Formik also integrates seamlessly with React components, making it easy to build forms using familiar patterns. n/Yup, on the other hand, is a JavaScript schema validation library that works well with Formik. It allows you to define validation schemas for your form fields using a concise and expressive syntax. With Yup, you can enforce rules such as required fields, minimum and maximum lengths, email validation, and more.`,
     featuresHeading: "Combining Formik and Yup:",
     features: [
@@ -336,9 +354,9 @@ const blogObjArr = [
     conclusion:
       "Formik and Yup provide a powerful combination for simplifying form management in React applications. By leveraging Formik's intuitive API and Yup's schema validation capabilities, developers can create robust and user-friendly forms with ease. Whether you're building a simple login form or a complex data-entry interface, Formik and Yup have got you covered, enabling you to focus on delivering great user experiences without getting bogged down by form-related complexities.",
     type: "Library",
-    route:'formik-yup'
+    route: 'formik-yup'
   },
-  
+
 ];
 
 const initialValues = {
