@@ -14,6 +14,7 @@ import ReactQueryImage3 from '../assests/images/react-query-img3.png'
 import Jwellery from '../assests/images/jwellery-webpage.png'
 import AdminPanel from '../assests/images/admin-panel.png'
 import SocialMedia from "../assests/images/sociel-media.png";
+import Mechanify from '../assests/images/mechanify.png'
 
 import {
   LinkedIn,
@@ -40,6 +41,11 @@ const projectObjArr = [
     url: "https://admin-dashboard-sigma-nine.vercel.app/",
     projectImg: AdminPanel,
     title: "Admin Panel",
+  },
+  {
+    url: "https://mechanify-services.vercel.app/",
+    projectImg: Mechanify,
+    title: "Mechanify Services",
   },
   {
     url: "https://user-app-brown.vercel.app/UserPage",
