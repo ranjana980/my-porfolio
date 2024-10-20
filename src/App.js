@@ -23,7 +23,7 @@ function App() {
           blogs={ref3}
           contact={ref4}
         />
-        <Routes>
+        <Routes >
           <Route index path="/" element={<PortFolioPage ref={ref} ref3={ref3} ref1={ref1} ref2={ref2} ref4={ref4} />} />
           <Route path="/blog/:technology/:id" element={<BlogDetails />} />
           <Route path="/projects" element={<ProjectListing />} />
