@@ -14,7 +14,17 @@ import ReactQueryImage3 from '../assests/images/react-query-img3.png'
 import Jwellery from '../assests/images/jwellery-webpage.png'
 import AdminPanel from '../assests/images/admin-panel.png'
 import SocialMedia from "../assests/images/sociel-media.png";
-import Mechanify from '../assests/images/mechanify.png'
+import Mechanify from '../assests/images/mechanify.png';
+import XpressCureClinic from '../assests/images/clinic-web-app.png'
+import NationalMedicure from '../assests/images/national-medicure.png'
+import XpressCureAdminPanel from '../assests/images/xpresscure-admin-panel.png'
+import Bitontree from '../assests/images/bitontree-site.png'
+import ERPProject from "../assests/images/allume-smith.png";
+import DiamondsFactory from '../assests/images/diamonds-factory.png'
+import CMSDiamondsFactory from '../assests/images/back-office.png'
+import SyberERP from "../assests/images/syber-erp.png";
+import FinTechProject from '../assests/images/fin-tech.png'
+import FinominalBlogs from '../assests/images/insights.finominal.png'
 
 import {
   LinkedIn,
@@ -27,7 +37,65 @@ import * as Yup from "yup";
 import { phoneRegex } from "./regex-helper";
 
 const projectObjArr = [
-  {
+  {title:"Company's or Clients Projects",projects: [
+    {
+      url: "https://clinic.xpresscure.com/",
+      projectImg: XpressCureClinic,
+      title: "Click Web App (Xpresscure Technology)",
+    },
+    {
+      url: "https://doctor.xpresscure.com/",
+      projectImg: XpressCureClinic,
+      title: "Doctor Web App(Xpresscure Technology)",
+    },
+    {
+      url: "http://www.nationalmedicosorganisation.org/",
+      projectImg: NationalMedicure,
+      title: "National Medicure Organisation (Xpresscure Technology)",
+    },
+    {
+      url: "https://www.admin.xpresscure.com/#/login",
+      projectImg: XpressCureAdminPanel,
+      title: "XpressCure Admin Panel (Xpresscure Technology)",
+    },
+    {
+      url: "https://www.bitontree.com/",
+      projectImg: Bitontree,
+      title: "Bitontree Site (Bitontree Solutions LLP)",
+    },
+    {
+      url: "https://smit-alluminium.netlify.app/user-login/login",
+      projectImg: ERPProject,
+      title: "ERP Project (Bitontree Solutions LLP)",
+    },
+    {
+      url: "https://www.diamondsfactory.com/",
+      projectImg: DiamondsFactory,
+      title: "Diamonds Factory (Bitontree Solutions LLP)",
+    },
+    {
+      url: "https://backoffice.nj.nvizion.io/login",
+      projectImg: CMSDiamondsFactory,
+      title: "CMS of Diamonds Factory (Bitontree Solutions LLP)",
+    },
+    {
+      url: "http://syber.ssspltd.com/",
+      projectImg: SyberERP,
+      title: "Syber ERP Projects (Bitontree Solutions LLP)",
+    },
+    {
+      url: "https://finominal.com/",
+      projectImg: FinTechProject,
+      title: "Fin Tech Project (Bitontree Solutions LLP)",
+    },
+    {
+      url: "https://insights.finominal.com/",
+      projectImg: FinominalBlogs,
+      title: "Blogs of Finominal (Bitontree Solutions LLP)",
+    },
+  ] },
+  {title:'Personal Projets',
+    projects:[{
     url: "https://e-learning-sand.vercel.app/",
     projectImg: ELearning,
     title: "E-learnig",
@@ -66,7 +134,7 @@ const projectObjArr = [
     url: "https://pokemon-git-master-ranjana980.vercel.app/",
     projectImg: Pokemon,
     title: "Pokemon",
-  },
+  },]},
 ];
 
 const qualificationObjArr = [
@@ -385,7 +453,38 @@ const validationSchema = Yup.object().shape({
   message: Yup.string().required("Message is required!"),
 });
 
+const skillsData = {
+  programmingLanguages: [
+    { skill: "Python", percent: 70 },
+    { skill: "JavaScript", percent: 70 },
+    { skill: "Angular", percent: 70 },
+    { skill: "HTML & CSS", percent: 70 },
+    { skill: "Node.js", percent: 50 },
+  ],
+  frameworksAndLibraries: [
+    { skill: "React", percent: 80 },
+    { skill: "Next.js", percent: 80 },
+    { skill: "Express.js", percent: 40 },
+    { skill: "Redux", percent: 70 },
+    { skill: "Socket.io", percent: 50 },
+  ],
+  uiStylingFrameworks: [
+    { skill: "Material UI", percent: 70 },
+    { skill: "Bootstrap", percent: 70 },
+    { skill: "Tailwind", percent: 70 },
+    { skill: "Canvas", percent: 70 },
+  ],
+  databasesAndTools: [
+    { skill: "Firebase", percent: 50 },
+    { skill: "MongoDB", percent: 50 },
+    { skill: "MySql", percent: 50 },
+    { skill: "GraphQL", percent: 70 },
+    { skill: "Strapi", percent: 70 },
+    { skill: "Agora Web RTC", percent: 70 },
+  ],
+};
 export {
+  skillsData,
   projectObjArr,
   qualificationObjArr,
   experienceObjArr,

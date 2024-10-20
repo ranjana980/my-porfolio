@@ -72,8 +72,12 @@ export default function Contact({ handleNotify }) {
             “hello”, please fill out the form below and I will reply you <br />
             shortly.
           </div>
-          <h3 className="mt-3 text-start">Phone: +916307108245</h3>
-          <h6 className="mt-1 text-start">Email: ranjana20@navgurukul.org</h6>
+          <h3 className="mt-3 text-start cursor-pointer">
+            Phone: <a href="tel:+916307108245">+916307108245</a>
+          </h3>
+          <h6 className="mt-1 text-start cursor-pointer">
+            Email: <a href="mailto:ranjana36389@gmail.com">ranjana36389@gmail.com</a>
+          </h6>
           <SocialMedia />
         </div>
         <div className="xl:w-[45%] mt-5 xs:w-[480px]  p-4  bg-[#ECF0F3] drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">

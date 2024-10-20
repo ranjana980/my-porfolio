@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Blog from "./blog";
 import Contact from "./contact";
-import Projects from "./projects";
+import Projects from "./project-listing";
 import Resume from "./resume";
 import AlertComponent from "./../common/alert";
 import Home from './home'

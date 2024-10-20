@@ -75,7 +75,6 @@ function Home() {
               src={Banner}
               className=" xl:h-[493px]  lg:h-[360px]  xs:h-[200px]  rounded"
             />
-
             <div className="absolute top-[438px] ml-[10px]">
               <SocialMedia />
             </div>

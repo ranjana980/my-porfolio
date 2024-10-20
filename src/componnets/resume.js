@@ -1,8 +1,9 @@
 import { Work, CastForEducation } from "@material-ui/icons";
 import Qualification from "../common/qualification-wrapper";
 import Skills from "./skills";
-import { experienceObjArr, qualificationObjArr } from "../utils/constant";
+import { experienceObjArr, qualificationObjArr, skillsData } from "../utils/constant";
 import { Fragment } from "react";
+import { formatTitle } from "../utils/helper-function";
 
 export default function Resume() {
   return (
@@ -78,29 +79,16 @@ export default function Resume() {
         <h1 className="mt-5 xl:text-center xs:ml-[20px] text-[30px] font-bold">
           Professional Skills
         </h1>
-        <div className="xl:ml-[150px] xl:flex lg:flex lg:w-[90%] xl:w-[80%] xs:w-[100%]  justify-content-between mt-3  xs:ml-[25px]">
-          <div className="xl:w-[30%] lg:w-[30%]">
-            <Skills skill="Python" percent={70} />
-            <Skills skill="JavaScript" percent={70} />
-            <Skills skill="Html && Css" percent={70} />
-            <Skills skill="Express js" percent={40} />
-            <Skills skill="Node js" percent={50} />
-            <Skills skill="Canvas" percent={70} />
+        <div className="xl:ml-[150px] xl:flex gap-10 lg:flex lg:w-[90%] xl:w-[80%] xs:w-[100%] justify-content-between mt-5 xs:ml-[25px]">
+          {Object.entries(skillsData).map(([key,values])=>(
+            <div className="xl:w-[30%] lg:w-[30%]">
+            <h3 className="font-bold capitalize">{formatTitle(key)}</h3>
+           <div className="mt-4 flex flex-col gap-2"> 
+            {values.map((item)=>(
+             <Skills skill={item?.skill} percent={item?.percent} />
+           ))}</div>
           </div>
-          <div className="xl:w-[30%] lg:w-[30%]">
-            <Skills skill="Material Ui" percent={70} />
-            <Skills skill="Bootstrap" percent={70} />
-            <Skills skill="React" percent={80} />
-            <Skills skill="Github" percent={70} />
-            <Skills skill="Mongodb Database" percent={50} />
-          </div>
-          <div className="xl:w-[30%] lg:w-[30%]">
-            <Skills skill="Redux" percent={70} />
-            <Skills skill="NextJs" percent={80} />
-            <Skills skill="Agora Web Rtc" percent={70} />
-            <Skills skill="Socket.io" percent={50} />
-            <Skills skill="Firebase" percent={50} />
-          </div>
+          ))}
         </div>
       </div>
       <hr className="mt-[58px] ml-2 mr-2" />
