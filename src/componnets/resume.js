@@ -81,7 +81,7 @@ export default function Resume() {
         </h1>
         <div className="xl:ml-[150px] xl:flex gap-10 lg:flex lg:w-[90%] xl:w-[80%] xs:w-[100%] justify-content-between mt-5 xs:ml-[25px]">
           {Object.entries(skillsData).map(([key,values])=>(
-            <div className="xl:w-[30%] lg:w-[30%]">
+            <div className="xl:w-[30%] lg:w-[30%] w-11/12">
             <h3 className="font-bold capitalize">{formatTitle(key)}</h3>
            <div className="mt-4 flex flex-col gap-2"> 
             {values.map((item)=>(

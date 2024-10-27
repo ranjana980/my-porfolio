@@ -1,7 +1,6 @@
 import { ArrowForward } from "@material-ui/icons";
 import InputComponent from "../common/input-component";
 import SocialMedia from "../common/social-media";
-import Footer from "./footer";
 import { Formik, Form } from "formik";
 import { initialValues, validationSchema } from "../utils/constant";
 // import axios from "axios";
@@ -60,7 +59,7 @@ export default function Contact({ handleNotify }) {
   return (
     <>
       <div className="xl:flex lg:flex w-100 xl:pl-10 lg:pl-10  xs:pl-[20px] xl:pr-10 lg:pr-10  xs:pr-0 justify-content-between">
-        <div className="xl:w-[45%] mt-5 xs:w-[480px]  p-4  bg-[#ECF0F3] drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">
+        <div className="xl:w-[45%] mt-5 xs:w-[415px]  p-4  bg-[#ECF0F3] drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">
           <img
             src="https://rainbowit.net/html/inbio/assets/images/contact/contact1.png"
             className="w-[700px]"
@@ -80,7 +79,7 @@ export default function Contact({ handleNotify }) {
           </h6>
           <SocialMedia />
         </div>
-        <div className="xl:w-[45%] mt-5 xs:w-[480px]  p-4  bg-[#ECF0F3] drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">
+        <div className="xl:w-[45%] mt-5 xs:w-[415px]  p-4  bg-[#ECF0F3] drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] rounded-[10px]">
           <Formik
             initialValues={initialValues}
             validationSchema={validationSchema}
@@ -147,7 +146,7 @@ export default function Contact({ handleNotify }) {
                 </div>
                 <button
                   type="submit"
-                  className="bg-[#ECF0F3] mt-5 xs:w-[430px]  drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] xl:w-[610px] p-2 mt-3 rounded-[4px] hover:bg-blue-500 hover:text-white hover:scale-15"
+                  className="bg-[#ECF0F3] flex justify-self-center w-max  drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] px-28 py-2 mt-3 rounded-[4px] hover:bg-blue-500 hover:text-white hover:scale-15"
                 >
                   Send Message <ArrowForward />
                 </button>
@@ -156,7 +155,6 @@ export default function Contact({ handleNotify }) {
           </Formik>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

@@ -5,15 +5,15 @@ module.exports = {
       extend: {},
       screens: {
         // mobile
-        'xs': '320px',
+        'xs': '375px',
         // LandScape
-        'sm': '576px',
+        'sm': '425px',
         // tablets
         'md': '768px',
         // Desktop
         'lg': '1024px',
         // large dekstop
-        'xl': '1280px',
+        'xl': '1440px',
       },
     },
     plugins: [],

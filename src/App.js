@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./componnets/navbar";
+import Footer from "./componnets/footer";
 import { useRef } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import BlogDetails from "./componnets/blogs/blog-details";
@@ -29,6 +30,7 @@ function App() {
           <Route path="/projects" element={<ProjectListing />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </>
   );
 }

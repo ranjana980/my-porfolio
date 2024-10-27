@@ -12,20 +12,20 @@ export default function ProjectListing() {
     <>
       <div>
         {projectObjArr?.map(({ title: projectTitle, projects },index) =>
-          <div className={`${index===0?"mt-20":'mt-10'} `}>
+          <div className={`${index===0?"mt-20":'mt-10'}`}>
             <u ><h1 className="mt-3 text-center text-xl font-bold ">{projectTitle}</h1>
             </u>
-            <div className="grid  gap-5 xl:grid-cols-4 lg:grid-cols-2 mt-4  xl:pl-10 lg:pl-8 xs:pl-12 xl:pr-10 lg:pr-10 ">
+            <div className="grid  gap-5 xl:grid-cols-4 grid-cols-1 lg:grid-cols-2 mt-4  xl:pl-10 lg:pl-8 xs:pl-12 xl:pr-10 lg:pr-10 ">
               {projects?.slice(0, isHome ? 4 : projects.length).map(({ title, projectImg, url }, index) => (
                 <Fragment key={index}>
                   <ProjectCard url={url} img={projectImg} title={title} />
                 </Fragment>
               ))}
-            </div>
+              </div>
             <div className="flex justify-center">
               {isHome && <button
                 onClick={() => navigate('/projects')}
-                className="hover:bg-[#ECF0F3] hover:text-black  bg-blue-500 flex justify-center mt-5 p-2 xs:w-[430px] drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] xl:w-[210px] rounded-lg p-2 rounded-[4px]  hover:text-white hover:scale-105"
+                className="hover:bg-[#ECF0F3] hover:text-black  bg-blue-500 flex justify-center mt-5 py-2 px-10 w-max drop-shadow-[0_10px_10px_rgba(0,0,0,0.20)] xl:w-[210px]  rounded-[4px]   hover:scale-105"
               >
                 View All
               </button>}

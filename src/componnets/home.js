@@ -3,9 +3,10 @@ import SocialMedia from "../common/social-media";
 
 function Home() {
   return (
-    <div className="Home">
-      <div className="row  xs:pl-[20px] xl:pl-10 xl:pr-[15px] xs:pr-[5px] xl:mt-22 xs:mt-[119px] justify-content-between">
-        <div className="col-xs-6 col-sm-6 col-md-5  ">
+    <div className="Home  !px-5 ">
+     <div className="mx-auto max-w-[1441px]">
+     <div className="grid lg:grid-cols-2 grid-col-1  xl:mt-22 xs:mt-[119px]">
+        <div>
           <div className="xl:w-[410px] xs:w-[300px] mt-5">
             <h1>WELCOME TO MY PROFILE</h1>
             <h1 className="text-[30px] xl:mt-4 xs:mt-2">
@@ -19,7 +20,7 @@ function Home() {
                 </h1>
               </h1>{" "}
             </h1>
-            <div className=" mt-2  xl:text-[17px] xs:text-[17px] xl:mr-[10px] xs:mr-[50px] xl:w-[600px] xs:w-[500px] relative text-start">
+            <p className=" mt-2  xl:text-[17px] xs:text-[17px] xl:mr-[10px] xs:mr-[50px] lg:w-[600px] w-[425px] relative text-start">
               I am an experienced frontend developer with over 2 year of
               dedicated service in the software industry. My work experience has
               honed my problem-solving skills, and I bring to the table a strong
@@ -36,7 +37,7 @@ function Home() {
               addition to my technical skills, I take pride in writing clean,
               readable code that not only performs well but is easily
               maintainable.
-            </div>
+            </p>
             <div className="row col-12 w-100 mt-14 ">
               <div className="flex w-100 justify-content-between ">
                 <div className="d-flex">
@@ -69,19 +70,20 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className=" col-xs-12 col-sm-12 col-md-6 ">
-          <div className="br xl:p-4 lg:p-4 xl:w-[700px]  lg:w-[500px] xs:hidden xs:mt-5 xl:block lg:block">
+        <div>
+          <div className="br xl:p-4 lg:p-4 xl:w-[700px] relative lg:w-[500px] xs:mt-5">
             <img
               src={Banner}
               className=" xl:h-[493px]  lg:h-[360px]  xs:h-[200px]  rounded"
             />
-            <div className="absolute top-[438px] ml-[10px]">
+            <div className="absolute md:bottom-10 bottom-5 ml-[10px]">
               <SocialMedia />
             </div>
           </div>
         </div>
       </div>
       <hr className="xl:mt-[60px] xl:ml-2 xl:mr-2 xs:mt-[40px] " />
+     </div>
     </div>
   );
 }
